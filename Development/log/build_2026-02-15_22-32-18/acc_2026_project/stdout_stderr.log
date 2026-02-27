@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating acc_2026_project.egg-info
+writing acc_2026_project.egg-info/PKG-INFO
+writing dependency_links to acc_2026_project.egg-info/dependency_links.txt
+writing entry points to acc_2026_project.egg-info/entry_points.txt
+writing requirements to acc_2026_project.egg-info/requires.txt
+writing top-level names to acc_2026_project.egg-info/top_level.txt
+writing manifest file 'acc_2026_project.egg-info/SOURCES.txt'
+reading manifest file 'acc_2026_project.egg-info/SOURCES.txt'
+writing manifest file 'acc_2026_project.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc-2026-project.egg-link (link to .)
+Installing check_all_cameras script to /workspaces/isaac_ros-dev/install/acc_2026_project/lib/acc_2026_project
+Installing lane_follower script to /workspaces/isaac_ros-dev/install/acc_2026_project/lib/acc_2026_project
+Installing test_motor script to /workspaces/isaac_ros-dev/install/acc_2026_project/lib/acc_2026_project
+
+Installed /workspaces/isaac_ros-dev/build/acc_2026_project
+running install_data
+creating /workspaces/isaac_ros-dev/install/acc_2026_project/share/ament_index
+creating /workspaces/isaac_ros-dev/install/acc_2026_project/share/ament_index/resource_index
+creating /workspaces/isaac_ros-dev/install/acc_2026_project/share/ament_index/resource_index/packages
+copying resource/acc_2026_project -> /workspaces/isaac_ros-dev/install/acc_2026_project/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/isaac_ros-dev/install/acc_2026_project/share/acc_2026_project

@@ -1,0 +1,6 @@
+source;share/acc_2026_project/hook/pythonpath.ps1
+source;share/acc_2026_project/hook/pythonpath.dsv
+source;share/acc_2026_project/hook/pythonpath.sh
+source;share/acc_2026_project/hook/ament_prefix_path.ps1
+source;share/acc_2026_project/hook/ament_prefix_path.dsv
+source;share/acc_2026_project/hook/ament_prefix_path.sh

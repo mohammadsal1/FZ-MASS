@@ -1,0 +1,148 @@
+running egg_info
+creating ../../build/acc_2026_project/acc_2026_project.egg-info
+writing ../../build/acc_2026_project/acc_2026_project.egg-info/PKG-INFO
+writing dependency_links to ../../build/acc_2026_project/acc_2026_project.egg-info/dependency_links.txt
+writing entry points to ../../build/acc_2026_project/acc_2026_project.egg-info/entry_points.txt
+writing requirements to ../../build/acc_2026_project/acc_2026_project.egg-info/requires.txt
+writing top-level names to ../../build/acc_2026_project/acc_2026_project.egg-info/top_level.txt
+writing manifest file '../../build/acc_2026_project/acc_2026_project.egg-info/SOURCES.txt'
+reading manifest file '../../build/acc_2026_project/acc_2026_project.egg-info/SOURCES.txt'
+writing manifest file '../../build/acc_2026_project/acc_2026_project.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspaces/isaac_ros-dev/build/acc_2026_project/build
+creating /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib
+creating /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project
+copying acc_2026_project/osman_dembiala.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project
+copying acc_2026_project/QCar2_lane_following.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project
+copying acc_2026_project/check_setup.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project
+copying acc_2026_project/__init__.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project
+copying acc_2026_project/qcar.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project
+copying acc_2026_project/check_all_cameras.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project
+copying acc_2026_project/fawzi.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project
+copying acc_2026_project/lane_follower.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project
+copying acc_2026_project/install.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project
+copying acc_2026_project/zaid.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project
+creating /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/__init__.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/install.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources
+creating /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/pal
+copying acc_2026_project/pal/__init__.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/pal
+creating /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/shredder_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/conveyor_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/road_signage_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/camera_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/crosswalk_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/traffic_cones_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/complete_road_signage_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/qcar_floor_mats_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/people_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/__init__.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/qcar2_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/qdrone2_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/walls_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/office_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/splines_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/widgets_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/office_tutorial2.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/multiagent_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/traffic_lights_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/basic_shapes_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/qcar_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/weather_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/wall_maze_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/animals_tutorial.py -> /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+running install
+running install_lib
+creating /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/osman_dembiala.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/QCar2_lane_following.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/check_setup.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/__init__.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/qcar.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/check_all_cameras.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/fawzi.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project
+creating /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/__init__.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/install.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources
+creating /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/shredder_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/conveyor_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/road_signage_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/camera_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/crosswalk_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/traffic_cones_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/complete_road_signage_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/qcar_floor_mats_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/people_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/__init__.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/qcar2_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/qdrone2_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/walls_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/office_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/splines_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/widgets_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/office_tutorial2.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/multiagent_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/traffic_lights_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/basic_shapes_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/qcar_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/weather_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/wall_maze_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/animals_tutorial.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials
+creating /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/pal
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/pal/__init__.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/pal
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/lane_follower.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/install.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project
+copying /workspaces/isaac_ros-dev/build/acc_2026_project/build/lib/acc_2026_project/zaid.py -> /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/osman_dembiala.py to osman_dembiala.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/QCar2_lane_following.py to QCar2_lane_following.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/check_setup.py to check_setup.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/__init__.py to __init__.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/qcar.py to qcar.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/check_all_cameras.py to check_all_cameras.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/fawzi.py to fawzi.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/__init__.py to __init__.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/install.py to install.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/shredder_tutorial.py to shredder_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/conveyor_tutorial.py to conveyor_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/road_signage_tutorial.py to road_signage_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/camera_tutorial.py to camera_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/crosswalk_tutorial.py to crosswalk_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/traffic_cones_tutorial.py to traffic_cones_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/complete_road_signage_tutorial.py to complete_road_signage_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/qcar_floor_mats_tutorial.py to qcar_floor_mats_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/people_tutorial.py to people_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/__init__.py to __init__.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/qcar2_tutorial.py to qcar2_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/qdrone2_tutorial.py to qdrone2_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/walls_tutorial.py to walls_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/office_tutorial.py to office_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/splines_tutorial.py to splines_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/widgets_tutorial.py to widgets_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/office_tutorial2.py to office_tutorial2.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/multiagent_tutorial.py to multiagent_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/traffic_lights_tutorial.py to traffic_lights_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/basic_shapes_tutorial.py to basic_shapes_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/qcar_tutorial.py to qcar_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/weather_tutorial.py to weather_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/wall_maze_tutorial.py to wall_maze_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/Quanser_Interactive_Labs_Resources/tutorials/animals_tutorial.py to animals_tutorial.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/pal/__init__.py to __init__.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/lane_follower.py to lane_follower.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/install.py to install.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project/zaid.py to zaid.cpython-38.pyc
+running install_data
+creating /workspaces/isaac_ros-dev/install/acc_2026_project/share/ament_index
+creating /workspaces/isaac_ros-dev/install/acc_2026_project/share/ament_index/resource_index
+creating /workspaces/isaac_ros-dev/install/acc_2026_project/share/ament_index/resource_index/packages
+copying resource/acc_2026_project -> /workspaces/isaac_ros-dev/install/acc_2026_project/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/isaac_ros-dev/install/acc_2026_project/share/acc_2026_project
+running install_egg_info
+Copying ../../build/acc_2026_project/acc_2026_project.egg-info to /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc_2026_project-0.0.0-py3.8.egg-info
+running install_scripts
+Installing check_all_cameras script to /workspaces/isaac_ros-dev/install/acc_2026_project/lib/acc_2026_project
+Installing lane_follower script to /workspaces/isaac_ros-dev/install/acc_2026_project/lib/acc_2026_project
+Installing test_motor script to /workspaces/isaac_ros-dev/install/acc_2026_project/lib/acc_2026_project
+writing list of installed files to '/workspaces/isaac_ros-dev/build/acc_2026_project/install.log'

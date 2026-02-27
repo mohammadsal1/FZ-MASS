@@ -1,0 +1,17 @@
+[0.000000] (-) TimerEvent: {}
+[0.000173] (-) JobUnselected: {'identifier': 'acc_2026_project'}
+[0.000202] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.000219] (-) JobUnselected: {'identifier': 'isaac_ros_bi3d_interfaces'}
+[0.000334] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.000386] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_bridge_interfaces'}
+[0.000397] (-) JobUnselected: {'identifier': 'isaac_ros_nova_interfaces'}
+[0.000407] (-) JobUnselected: {'identifier': 'isaac_ros_pointcloud_interfaces'}
+[0.000417] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.000435] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.000445] (-) JobUnselected: {'identifier': 'qcar2_autonomy'}
+[0.000458] (-) JobUnselected: {'identifier': 'qcar2_interfaces'}
+[0.000471] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.000486] (qcar2_nodes) JobQueued: {'identifier': 'qcar2_nodes', 'dependencies': OrderedDict([('qcar2_interfaces', '/workspaces/isaac_ros-dev/install/qcar2_interfaces')])}
+[0.000686] (qcar2_nodes) JobStarted: {'identifier': 'qcar2_nodes'}
+[0.063872] (qcar2_nodes) JobEnded: {'identifier': 'qcar2_nodes', 'rc': 1}
+[0.074407] (-) EventReactorShutdown: {}

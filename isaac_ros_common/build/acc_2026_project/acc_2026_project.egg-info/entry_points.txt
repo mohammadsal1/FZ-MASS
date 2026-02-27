@@ -1,0 +1,4 @@
+[console_scripts]
+check_all_cameras = acc_2026_project.check_all_cameras:main
+lane_follower = acc_2026_project.lane_follower:main
+test_motor = acc_2026_project.test_motor:main

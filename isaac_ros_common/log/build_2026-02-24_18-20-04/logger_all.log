@@ -1,0 +1,1041 @@
+[2.770s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.770s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ca5d87327f0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ca5d87327f0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ca5d8145fa0>)
+[2.890s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.890s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.890s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.890s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.890s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.890s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.890s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspaces/isaac_ros-dev'
+[2.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.906s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition) by extensions ['ignore', 'ignore_ament_install']
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition) by extension 'ignore'
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition) by extension 'ignore_ament_install'
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition) by extensions ['colcon_pkg']
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition) by extension 'colcon_pkg'
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition) by extensions ['colcon_meta']
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition) by extension 'colcon_meta'
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition) by extensions ['ros']
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition) by extension 'ros'
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition) by extensions ['cmake', 'python']
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition) by extension 'cmake'
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition) by extension 'python'
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition) by extensions ['python_setup_py']
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition) by extension 'python_setup_py'
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code) by extensions ['ignore', 'ignore_ament_install']
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code) by extension 'ignore'
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code) by extension 'ignore_ament_install'
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code) by extensions ['colcon_pkg']
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code) by extension 'colcon_pkg'
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code) by extensions ['colcon_meta']
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code) by extension 'colcon_meta'
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code) by extensions ['ros']
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code) by extension 'ros'
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code) by extensions ['cmake', 'python']
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code) by extension 'cmake'
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code) by extension 'python'
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code) by extensions ['python_setup_py']
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code) by extension 'python_setup_py'
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser) by extensions ['ignore', 'ignore_ament_install']
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser) by extension 'ignore'
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser) by extension 'ignore_ament_install'
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser) by extensions ['colcon_pkg']
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser) by extension 'colcon_pkg'
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser) by extensions ['colcon_meta']
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser) by extension 'colcon_meta'
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser) by extensions ['ros']
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser) by extension 'ros'
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser) by extensions ['cmake', 'python']
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser) by extension 'cmake'
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser) by extension 'python'
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser) by extensions ['python_setup_py']
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser) by extension 'python_setup_py'
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser/__pycache__) by extension 'ignore'
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser/__pycache__) by extension 'ignore_ament_install'
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser/__pycache__) by extensions ['colcon_pkg']
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser/__pycache__) by extension 'colcon_pkg'
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser/__pycache__) by extensions ['colcon_meta']
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser/__pycache__) by extension 'colcon_meta'
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser/__pycache__) by extensions ['ros']
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser/__pycache__) by extension 'ros'
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser/__pycache__) by extensions ['cmake', 'python']
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser/__pycache__) by extension 'cmake'
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser/__pycache__) by extension 'python'
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser/__pycache__) by extensions ['python_setup_py']
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Final_Code/Quanser/__pycache__) by extension 'python_setup_py'
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser) by extensions ['ignore', 'ignore_ament_install']
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser) by extension 'ignore'
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser) by extension 'ignore_ament_install'
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser) by extensions ['colcon_pkg']
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser) by extension 'colcon_pkg'
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser) by extensions ['colcon_meta']
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser) by extension 'colcon_meta'
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser) by extensions ['ros']
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser) by extension 'ros'
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser) by extensions ['cmake', 'python']
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser) by extension 'cmake'
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser) by extension 'python'
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser) by extensions ['python_setup_py']
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser) by extension 'python_setup_py'
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser/__pycache__) by extension 'ignore'
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser/__pycache__) by extension 'ignore_ament_install'
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser/__pycache__) by extensions ['colcon_pkg']
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser/__pycache__) by extension 'colcon_pkg'
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser/__pycache__) by extensions ['colcon_meta']
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser/__pycache__) by extension 'colcon_meta'
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser/__pycache__) by extensions ['ros']
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser/__pycache__) by extension 'ros'
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser/__pycache__) by extensions ['cmake', 'python']
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser/__pycache__) by extension 'cmake'
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser/__pycache__) by extension 'python'
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser/__pycache__) by extensions ['python_setup_py']
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/Quanser/__pycache__) by extension 'python_setup_py'
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/__pycache__) by extension 'ignore'
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/__pycache__) by extension 'ignore_ament_install'
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/__pycache__) by extensions ['colcon_pkg']
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/__pycache__) by extension 'colcon_pkg'
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/__pycache__) by extensions ['colcon_meta']
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/__pycache__) by extension 'colcon_meta'
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/__pycache__) by extensions ['ros']
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/__pycache__) by extension 'ros'
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/__pycache__) by extensions ['cmake', 'python']
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/__pycache__) by extension 'cmake'
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/__pycache__) by extension 'python'
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/__pycache__) by extensions ['python_setup_py']
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/__pycache__) by extension 'python_setup_py'
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car) by extensions ['ignore', 'ignore_ament_install']
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car) by extension 'ignore'
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car) by extension 'ignore_ament_install'
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car) by extensions ['colcon_pkg']
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car) by extension 'colcon_pkg'
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car) by extensions ['colcon_meta']
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car) by extension 'colcon_meta'
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car) by extensions ['ros']
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car) by extension 'ros'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car) by extensions ['cmake', 'python']
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car) by extension 'cmake'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car) by extension 'python'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car) by extensions ['python_setup_py']
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car) by extension 'python_setup_py'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls) by extensions ['ignore', 'ignore_ament_install']
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls) by extension 'ignore'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls) by extension 'ignore_ament_install'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls) by extensions ['colcon_pkg']
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls) by extension 'colcon_pkg'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls) by extensions ['colcon_meta']
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls) by extension 'colcon_meta'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls) by extensions ['ros']
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls) by extension 'ros'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls) by extensions ['cmake', 'python']
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls) by extension 'cmake'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls) by extension 'python'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls) by extensions ['python_setup_py']
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls) by extension 'python_setup_py'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser) by extensions ['ignore', 'ignore_ament_install']
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser) by extension 'ignore'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser) by extension 'ignore_ament_install'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser) by extensions ['colcon_pkg']
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser) by extension 'colcon_pkg'
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser) by extensions ['colcon_meta']
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser) by extension 'colcon_meta'
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser) by extensions ['ros']
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser) by extension 'ros'
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser) by extensions ['cmake', 'python']
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser) by extension 'cmake'
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser) by extension 'python'
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser) by extensions ['python_setup_py']
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser) by extension 'python_setup_py'
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser/__pycache__) by extension 'ignore'
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser/__pycache__) by extension 'ignore_ament_install'
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser/__pycache__) by extensions ['colcon_pkg']
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser/__pycache__) by extension 'colcon_pkg'
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser/__pycache__) by extensions ['colcon_meta']
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser/__pycache__) by extension 'colcon_meta'
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser/__pycache__) by extensions ['ros']
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser/__pycache__) by extension 'ros'
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser/__pycache__) by extensions ['cmake', 'python']
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser/__pycache__) by extension 'cmake'
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser/__pycache__) by extension 'python'
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser/__pycache__) by extensions ['python_setup_py']
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/Quanser/__pycache__) by extension 'python_setup_py'
+[2.913s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/__pycache__) by extension 'ignore'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/__pycache__) by extension 'ignore_ament_install'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/__pycache__) by extensions ['colcon_pkg']
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/__pycache__) by extension 'colcon_pkg'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/__pycache__) by extensions ['colcon_meta']
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/__pycache__) by extension 'colcon_meta'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/__pycache__) by extensions ['ros']
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/__pycache__) by extension 'ros'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/__pycache__) by extensions ['cmake', 'python']
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/__pycache__) by extension 'cmake'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/__pycache__) by extension 'python'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/__pycache__) by extensions ['python_setup_py']
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/ACC_2025_Controls/__pycache__) by extension 'python_setup_py'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Libraries) by extensions ['ignore', 'ignore_ament_install']
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Libraries) by extension 'ignore'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Libraries) by extension 'ignore_ament_install'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Libraries) by extensions ['colcon_pkg']
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Libraries) by extension 'colcon_pkg'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Libraries) by extensions ['colcon_meta']
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Libraries) by extension 'colcon_meta'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Libraries) by extensions ['ros']
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Libraries) by extension 'ros'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Libraries) by extensions ['cmake', 'python']
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Libraries) by extension 'cmake'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Libraries) by extension 'python'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Libraries) by extensions ['python_setup_py']
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Libraries) by extension 'python_setup_py'
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map) by extensions ['ignore', 'ignore_ament_install']
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map) by extension 'ignore'
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map) by extension 'ignore_ament_install'
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map) by extensions ['colcon_pkg']
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map) by extension 'colcon_pkg'
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map) by extensions ['colcon_meta']
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map) by extension 'colcon_meta'
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map) by extensions ['ros']
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map) by extension 'ros'
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map) by extensions ['cmake', 'python']
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map) by extension 'cmake'
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map) by extension 'python'
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map) by extensions ['python_setup_py']
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map) by extension 'python_setup_py'
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser) by extensions ['ignore', 'ignore_ament_install']
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser) by extension 'ignore'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser) by extension 'ignore_ament_install'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser) by extensions ['colcon_pkg']
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser) by extension 'colcon_pkg'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser) by extensions ['colcon_meta']
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser) by extension 'colcon_meta'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser) by extensions ['ros']
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser) by extension 'ros'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser) by extensions ['cmake', 'python']
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser) by extension 'cmake'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser) by extension 'python'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser) by extensions ['python_setup_py']
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser) by extension 'python_setup_py'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser/__pycache__) by extension 'ignore'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser/__pycache__) by extension 'ignore_ament_install'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser/__pycache__) by extensions ['colcon_pkg']
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser/__pycache__) by extension 'colcon_pkg'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser/__pycache__) by extensions ['colcon_meta']
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser/__pycache__) by extension 'colcon_meta'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser/__pycache__) by extensions ['ros']
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser/__pycache__) by extension 'ros'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser/__pycache__) by extensions ['cmake', 'python']
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser/__pycache__) by extension 'cmake'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser/__pycache__) by extension 'python'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser/__pycache__) by extensions ['python_setup_py']
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/Quanser/__pycache__) by extension 'python_setup_py'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/__pycache__) by extension 'ignore'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/__pycache__) by extension 'ignore_ament_install'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/__pycache__) by extensions ['colcon_pkg']
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/__pycache__) by extension 'colcon_pkg'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/__pycache__) by extensions ['colcon_meta']
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/__pycache__) by extension 'colcon_meta'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/__pycache__) by extensions ['ros']
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/__pycache__) by extension 'ros'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/__pycache__) by extensions ['cmake', 'python']
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/__pycache__) by extension 'cmake'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/__pycache__) by extension 'python'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/__pycache__) by extensions ['python_setup_py']
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Map/__pycache__) by extension 'python_setup_py'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser) by extensions ['ignore', 'ignore_ament_install']
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser) by extension 'ignore'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser) by extension 'ignore_ament_install'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser) by extensions ['colcon_pkg']
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser) by extension 'colcon_pkg'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser) by extensions ['colcon_meta']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser) by extension 'colcon_meta'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser) by extensions ['ros']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser) by extension 'ros'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser) by extensions ['cmake', 'python']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser) by extension 'cmake'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser) by extension 'python'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser) by extensions ['python_setup_py']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser) by extension 'python_setup_py'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser/__pycache__) by extension 'ignore'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser/__pycache__) by extension 'ignore_ament_install'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser/__pycache__) by extensions ['colcon_pkg']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser/__pycache__) by extension 'colcon_pkg'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser/__pycache__) by extensions ['colcon_meta']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser/__pycache__) by extension 'colcon_meta'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser/__pycache__) by extensions ['ros']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser/__pycache__) by extension 'ros'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser/__pycache__) by extensions ['cmake', 'python']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser/__pycache__) by extension 'cmake'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser/__pycache__) by extension 'python'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser/__pycache__) by extensions ['python_setup_py']
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/Quanser/__pycache__) by extension 'python_setup_py'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/__pycache__) by extension 'ignore'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/__pycache__) by extension 'ignore_ament_install'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/__pycache__) by extensions ['colcon_pkg']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/__pycache__) by extension 'colcon_pkg'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/__pycache__) by extensions ['colcon_meta']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/__pycache__) by extension 'colcon_meta'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/__pycache__) by extensions ['ros']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/__pycache__) by extension 'ros'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/__pycache__) by extensions ['cmake', 'python']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/__pycache__) by extension 'cmake'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/__pycache__) by extension 'python'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/__pycache__) by extensions ['python_setup_py']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/__pycache__) by extension 'python_setup_py'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/qcar) by extensions ['ignore', 'ignore_ament_install']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/qcar) by extension 'ignore'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/qcar) by extension 'ignore_ament_install'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/qcar) by extensions ['colcon_pkg']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/qcar) by extension 'colcon_pkg'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/qcar) by extensions ['colcon_meta']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/qcar) by extension 'colcon_meta'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/qcar) by extensions ['ros']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/qcar) by extension 'ros'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/qcar) by extensions ['cmake', 'python']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/qcar) by extension 'cmake'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/qcar) by extension 'python'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/qcar) by extensions ['python_setup_py']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/qcar) by extension 'python_setup_py'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main) by extensions ['ignore', 'ignore_ament_install']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main) by extension 'ignore'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main) by extension 'ignore_ament_install'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main) by extensions ['colcon_pkg']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main) by extension 'colcon_pkg'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main) by extensions ['colcon_meta']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main) by extension 'colcon_meta'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main) by extensions ['ros']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main) by extension 'ros'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main) by extensions ['cmake', 'python']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main) by extension 'cmake'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main) by extension 'python'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main) by extensions ['python_setup_py']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main) by extension 'python_setup_py'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/cfg) by extensions ['ignore', 'ignore_ament_install']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/cfg) by extension 'ignore'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/cfg) by extension 'ignore_ament_install'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/cfg) by extensions ['colcon_pkg']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/cfg) by extension 'colcon_pkg'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/cfg) by extensions ['colcon_meta']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/cfg) by extension 'colcon_meta'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/cfg) by extensions ['ros']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/cfg) by extension 'ros'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/cfg) by extensions ['cmake', 'python']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/cfg) by extension 'cmake'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/cfg) by extension 'python'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/cfg) by extensions ['python_setup_py']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/cfg) by extension 'python_setup_py'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs) by extensions ['ignore', 'ignore_ament_install']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs) by extension 'ignore'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs) by extension 'ignore_ament_install'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs) by extensions ['colcon_pkg']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs) by extension 'colcon_pkg'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs) by extensions ['colcon_meta']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs) by extension 'colcon_meta'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs) by extensions ['ros']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs) by extension 'ros'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs) by extensions ['cmake', 'python']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs) by extension 'cmake'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs) by extension 'python'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs) by extensions ['python_setup_py']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs) by extension 'python_setup_py'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images) by extensions ['ignore', 'ignore_ament_install']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images) by extension 'ignore'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images) by extension 'ignore_ament_install'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images) by extensions ['colcon_pkg']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images) by extension 'colcon_pkg'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images) by extensions ['colcon_meta']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images) by extension 'colcon_meta'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images) by extensions ['ros']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images) by extension 'ros'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images) by extensions ['cmake', 'python']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images) by extension 'cmake'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images) by extension 'python'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images) by extensions ['python_setup_py']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images) by extension 'python_setup_py'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/crosswalks) by extensions ['ignore', 'ignore_ament_install']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/crosswalks) by extension 'ignore'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/crosswalks) by extension 'ignore_ament_install'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/crosswalks) by extensions ['colcon_pkg']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/crosswalks) by extension 'colcon_pkg'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/crosswalks) by extensions ['colcon_meta']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/crosswalks) by extension 'colcon_meta'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/crosswalks) by extensions ['ros']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/crosswalks) by extension 'ros'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/crosswalks) by extensions ['cmake', 'python']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/crosswalks) by extension 'cmake'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/crosswalks) by extension 'python'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/crosswalks) by extensions ['python_setup_py']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/crosswalks) by extension 'python_setup_py'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/speed-limit) by extensions ['ignore', 'ignore_ament_install']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/speed-limit) by extension 'ignore'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/speed-limit) by extension 'ignore_ament_install'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/speed-limit) by extensions ['colcon_pkg']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/speed-limit) by extension 'colcon_pkg'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/speed-limit) by extensions ['colcon_meta']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/speed-limit) by extension 'colcon_meta'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/speed-limit) by extensions ['ros']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/speed-limit) by extension 'ros'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/speed-limit) by extensions ['cmake', 'python']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/speed-limit) by extension 'cmake'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/speed-limit) by extension 'python'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/speed-limit) by extensions ['python_setup_py']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/speed-limit) by extension 'python_setup_py'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/stop-signs) by extensions ['ignore', 'ignore_ament_install']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/stop-signs) by extension 'ignore'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/stop-signs) by extension 'ignore_ament_install'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/stop-signs) by extensions ['colcon_pkg']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/stop-signs) by extension 'colcon_pkg'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/stop-signs) by extensions ['colcon_meta']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/stop-signs) by extension 'colcon_meta'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/stop-signs) by extensions ['ros']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/stop-signs) by extension 'ros'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/stop-signs) by extensions ['cmake', 'python']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/stop-signs) by extension 'cmake'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/stop-signs) by extension 'python'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/stop-signs) by extensions ['python_setup_py']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/stop-signs) by extension 'python_setup_py'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/traffic-lights) by extensions ['ignore', 'ignore_ament_install']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/traffic-lights) by extension 'ignore'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/traffic-lights) by extension 'ignore_ament_install'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/traffic-lights) by extensions ['colcon_pkg']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/traffic-lights) by extension 'colcon_pkg'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/traffic-lights) by extensions ['colcon_meta']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/traffic-lights) by extension 'colcon_meta'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/traffic-lights) by extensions ['ros']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/traffic-lights) by extension 'ros'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/traffic-lights) by extensions ['cmake', 'python']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/traffic-lights) by extension 'cmake'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/traffic-lights) by extension 'python'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/traffic-lights) by extensions ['python_setup_py']
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/images/traffic-lights) by extension 'python_setup_py'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos) by extensions ['ignore', 'ignore_ament_install']
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos) by extension 'ignore'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos) by extension 'ignore_ament_install'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos) by extensions ['colcon_pkg']
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos) by extension 'colcon_pkg'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos) by extensions ['colcon_meta']
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos) by extension 'colcon_meta'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos) by extensions ['ros']
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos) by extension 'ros'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos) by extensions ['cmake', 'python']
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos) by extension 'cmake'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos) by extension 'python'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos) by extensions ['python_setup_py']
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos) by extension 'python_setup_py'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/speed-limit) by extensions ['ignore', 'ignore_ament_install']
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/speed-limit) by extension 'ignore'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/speed-limit) by extension 'ignore_ament_install'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/speed-limit) by extensions ['colcon_pkg']
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/speed-limit) by extension 'colcon_pkg'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/speed-limit) by extensions ['colcon_meta']
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/speed-limit) by extension 'colcon_meta'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/speed-limit) by extensions ['ros']
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/speed-limit) by extension 'ros'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/speed-limit) by extensions ['cmake', 'python']
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/speed-limit) by extension 'cmake'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/speed-limit) by extension 'python'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/speed-limit) by extensions ['python_setup_py']
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/speed-limit) by extension 'python_setup_py'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/traffic-lights) by extensions ['ignore', 'ignore_ament_install']
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/traffic-lights) by extension 'ignore'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/traffic-lights) by extension 'ignore_ament_install'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/traffic-lights) by extensions ['colcon_pkg']
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/traffic-lights) by extension 'colcon_pkg'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/traffic-lights) by extensions ['colcon_meta']
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/traffic-lights) by extension 'colcon_meta'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/traffic-lights) by extensions ['ros']
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/traffic-lights) by extension 'ros'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/traffic-lights) by extensions ['cmake', 'python']
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/traffic-lights) by extension 'cmake'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/traffic-lights) by extension 'python'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/traffic-lights) by extensions ['python_setup_py']
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/inputs/videos/traffic-lights) by extension 'python_setup_py'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results) by extensions ['ignore', 'ignore_ament_install']
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results) by extension 'ignore'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results) by extension 'ignore_ament_install'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results) by extensions ['colcon_pkg']
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results) by extension 'colcon_pkg'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results) by extensions ['colcon_meta']
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results) by extension 'colcon_meta'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results) by extensions ['ros']
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results) by extension 'ros'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results) by extensions ['cmake', 'python']
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results) by extension 'cmake'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results) by extension 'python'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results) by extensions ['python_setup_py']
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results) by extension 'python_setup_py'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/images) by extensions ['ignore', 'ignore_ament_install']
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/images) by extension 'ignore'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/images) by extension 'ignore_ament_install'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/images) by extensions ['colcon_pkg']
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/images) by extension 'colcon_pkg'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/images) by extensions ['colcon_meta']
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/images) by extension 'colcon_meta'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/images) by extensions ['ros']
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/images) by extension 'ros'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/images) by extensions ['cmake', 'python']
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/images) by extension 'cmake'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/images) by extension 'python'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/images) by extensions ['python_setup_py']
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/images) by extension 'python_setup_py'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/videos) by extensions ['ignore', 'ignore_ament_install']
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/videos) by extension 'ignore'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/videos) by extension 'ignore_ament_install'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/videos) by extensions ['colcon_pkg']
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/videos) by extension 'colcon_pkg'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/videos) by extensions ['colcon_meta']
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/videos) by extension 'colcon_meta'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/videos) by extensions ['ros']
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/videos) by extension 'ros'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/videos) by extensions ['cmake', 'python']
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/videos) by extension 'cmake'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/videos) by extension 'python'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/videos) by extensions ['python_setup_py']
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/code_found_on_car/traffic-sign-detector-yolov4-main/results/videos) by extension 'python_setup_py'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/documents) by extensions ['ignore', 'ignore_ament_install']
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/documents) by extension 'ignore'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/documents) by extension 'ignore_ament_install'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/documents) by extensions ['colcon_pkg']
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/documents) by extension 'colcon_pkg'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/documents) by extensions ['colcon_meta']
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/documents) by extension 'colcon_meta'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/documents) by extensions ['ros']
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/documents) by extension 'ros'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/documents) by extensions ['cmake', 'python']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/documents) by extension 'cmake'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/documents) by extension 'python'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/documents) by extensions ['python_setup_py']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(3 - ACC 2025 competition/documents) by extension 'python_setup_py'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ignore', 'ignore_ament_install']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore_ament_install'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_pkg']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_pkg'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_meta']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_meta'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ros']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ros'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['cmake', 'python']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'cmake'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['python_setup_py']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python_setup_py'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/middleware_profiles) by extensions ['ignore', 'ignore_ament_install']
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/middleware_profiles) by extension 'ignore'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/middleware_profiles) by extension 'ignore_ament_install'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/middleware_profiles) by extensions ['colcon_pkg']
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/middleware_profiles) by extension 'colcon_pkg'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/middleware_profiles) by extensions ['colcon_meta']
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/middleware_profiles) by extension 'colcon_meta'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/middleware_profiles) by extensions ['ros']
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/middleware_profiles) by extension 'ros'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/middleware_profiles) by extensions ['cmake', 'python']
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/middleware_profiles) by extension 'cmake'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/middleware_profiles) by extension 'python'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/middleware_profiles) by extensions ['python_setup_py']
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/middleware_profiles) by extension 'python_setup_py'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/patches) by extensions ['ignore', 'ignore_ament_install']
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/patches) by extension 'ignore'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/patches) by extension 'ignore_ament_install'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/patches) by extensions ['colcon_pkg']
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/patches) by extension 'colcon_pkg'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/patches) by extensions ['colcon_meta']
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/patches) by extension 'colcon_meta'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/patches) by extensions ['ros']
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(docker/patches) by extension 'ros'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/patches) by extensions ['cmake', 'python']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/patches) by extension 'cmake'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/patches) by extension 'python'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/patches) by extensions ['python_setup_py']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/patches) by extension 'python_setup_py'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/scripts) by extensions ['ignore', 'ignore_ament_install']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/scripts) by extension 'ignore'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/scripts) by extension 'ignore_ament_install'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/scripts) by extensions ['colcon_pkg']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/scripts) by extension 'colcon_pkg'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/scripts) by extensions ['colcon_meta']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/scripts) by extension 'colcon_meta'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/scripts) by extensions ['ros']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/scripts) by extension 'ros'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/scripts) by extensions ['cmake', 'python']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/scripts) by extension 'cmake'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/scripts) by extension 'python'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/scripts) by extensions ['python_setup_py']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/scripts) by extension 'python_setup_py'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/tao) by extensions ['ignore', 'ignore_ament_install']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/tao) by extension 'ignore'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/tao) by extension 'ignore_ament_install'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/tao) by extensions ['colcon_pkg']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(docker/tao) by extension 'colcon_pkg'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/tao) by extensions ['colcon_meta']
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/tao) by extension 'colcon_meta'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/tao) by extensions ['ros']
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/tao) by extension 'ros'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/tao) by extensions ['cmake', 'python']
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/tao) by extension 'cmake'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/tao) by extension 'python'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/tao) by extensions ['python_setup_py']
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/tao) by extension 'python_setup_py'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/udev_rules) by extensions ['ignore', 'ignore_ament_install']
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/udev_rules) by extension 'ignore'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/udev_rules) by extension 'ignore_ament_install'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/udev_rules) by extensions ['colcon_pkg']
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/udev_rules) by extension 'colcon_pkg'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/udev_rules) by extensions ['colcon_meta']
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/udev_rules) by extension 'colcon_meta'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/udev_rules) by extensions ['ros']
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/udev_rules) by extension 'ros'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/udev_rules) by extensions ['cmake', 'python']
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/udev_rules) by extension 'cmake'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/udev_rules) by extension 'python'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/udev_rules) by extensions ['python_setup_py']
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(docker/udev_rules) by extension 'python_setup_py'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_apriltag_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_apriltag_interfaces) by extension 'ignore'
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_apriltag_interfaces) by extension 'ignore_ament_install'
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_apriltag_interfaces) by extensions ['colcon_pkg']
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_apriltag_interfaces) by extension 'colcon_pkg'
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_apriltag_interfaces) by extensions ['colcon_meta']
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_apriltag_interfaces) by extension 'colcon_meta'
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_apriltag_interfaces) by extensions ['ros']
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_apriltag_interfaces) by extension 'ros'
+[2.936s] DEBUG:colcon.colcon_core.package_identification:Package 'isaac_ros_apriltag_interfaces' with type 'ros.ament_cmake' and name 'isaac_ros_apriltag_interfaces'
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_bi3d_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_bi3d_interfaces) by extension 'ignore'
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_bi3d_interfaces) by extension 'ignore_ament_install'
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_bi3d_interfaces) by extensions ['colcon_pkg']
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_bi3d_interfaces) by extension 'colcon_pkg'
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_bi3d_interfaces) by extensions ['colcon_meta']
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_bi3d_interfaces) by extension 'colcon_meta'
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_bi3d_interfaces) by extensions ['ros']
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_bi3d_interfaces) by extension 'ros'
+[2.937s] DEBUG:colcon.colcon_core.package_identification:Package 'isaac_ros_bi3d_interfaces' with type 'ros.ament_cmake' and name 'isaac_ros_bi3d_interfaces'
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_common) by extensions ['ignore', 'ignore_ament_install']
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_common) by extension 'ignore'
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_common) by extension 'ignore_ament_install'
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_common) by extensions ['colcon_pkg']
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_common) by extension 'colcon_pkg'
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_common) by extensions ['colcon_meta']
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_common) by extension 'colcon_meta'
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_common) by extensions ['ros']
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_common) by extension 'ros'
+[2.938s] DEBUG:colcon.colcon_core.package_identification:Package 'isaac_ros_common' with type 'ros.ament_cmake' and name 'isaac_ros_common'
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_nitros_bridge_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.939s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_nitros_bridge_interfaces) by extension 'ignore'
+[2.939s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_nitros_bridge_interfaces) by extension 'ignore_ament_install'
+[2.939s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_nitros_bridge_interfaces) by extensions ['colcon_pkg']
+[2.939s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_nitros_bridge_interfaces) by extension 'colcon_pkg'
+[2.939s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_nitros_bridge_interfaces) by extensions ['colcon_meta']
+[2.939s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_nitros_bridge_interfaces) by extension 'colcon_meta'
+[2.939s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_nitros_bridge_interfaces) by extensions ['ros']
+[2.939s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_nitros_bridge_interfaces) by extension 'ros'
+[2.939s] DEBUG:colcon.colcon_core.package_identification:Package 'isaac_ros_nitros_bridge_interfaces' with type 'ros.ament_cmake' and name 'isaac_ros_nitros_bridge_interfaces'
+[2.939s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_nova_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_nova_interfaces) by extension 'ignore'
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_nova_interfaces) by extension 'ignore_ament_install'
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_nova_interfaces) by extensions ['colcon_pkg']
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_nova_interfaces) by extension 'colcon_pkg'
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_nova_interfaces) by extensions ['colcon_meta']
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_nova_interfaces) by extension 'colcon_meta'
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_nova_interfaces) by extensions ['ros']
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_nova_interfaces) by extension 'ros'
+[2.940s] DEBUG:colcon.colcon_core.package_identification:Package 'isaac_ros_nova_interfaces' with type 'ros.ament_cmake' and name 'isaac_ros_nova_interfaces'
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_pointcloud_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_pointcloud_interfaces) by extension 'ignore'
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_pointcloud_interfaces) by extension 'ignore_ament_install'
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_pointcloud_interfaces) by extensions ['colcon_pkg']
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_pointcloud_interfaces) by extension 'colcon_pkg'
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_pointcloud_interfaces) by extensions ['colcon_meta']
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_pointcloud_interfaces) by extension 'colcon_meta'
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_pointcloud_interfaces) by extensions ['ros']
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_pointcloud_interfaces) by extension 'ros'
+[2.941s] DEBUG:colcon.colcon_core.package_identification:Package 'isaac_ros_pointcloud_interfaces' with type 'ros.ament_cmake' and name 'isaac_ros_pointcloud_interfaces'
+[2.942s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_tensor_list_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.942s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_tensor_list_interfaces) by extension 'ignore'
+[2.942s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_tensor_list_interfaces) by extension 'ignore_ament_install'
+[2.942s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_tensor_list_interfaces) by extensions ['colcon_pkg']
+[2.942s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_tensor_list_interfaces) by extension 'colcon_pkg'
+[2.942s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_tensor_list_interfaces) by extensions ['colcon_meta']
+[2.942s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_tensor_list_interfaces) by extension 'colcon_meta'
+[2.942s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_tensor_list_interfaces) by extensions ['ros']
+[2.942s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_tensor_list_interfaces) by extension 'ros'
+[2.943s] DEBUG:colcon.colcon_core.package_identification:Package 'isaac_ros_tensor_list_interfaces' with type 'ros.ament_cmake' and name 'isaac_ros_tensor_list_interfaces'
+[2.943s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_test) by extensions ['ignore', 'ignore_ament_install']
+[2.943s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_test) by extension 'ignore'
+[2.943s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_test) by extension 'ignore_ament_install'
+[2.943s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_test) by extensions ['colcon_pkg']
+[2.943s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_test) by extension 'colcon_pkg'
+[2.943s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_test) by extensions ['colcon_meta']
+[2.943s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_test) by extension 'colcon_meta'
+[2.943s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_test) by extensions ['ros']
+[2.943s] Level 1:colcon.colcon_core.package_identification:_identify(isaac_ros_test) by extension 'ros'
+[2.944s] DEBUG:colcon.colcon_core.package_identification:Package 'isaac_ros_test' with type 'ros.ament_python' and name 'isaac_ros_test'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extensions ['ignore', 'ignore_ament_install']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extension 'ignore'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extension 'ignore_ament_install'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extensions ['colcon_pkg']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extension 'colcon_pkg'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extensions ['colcon_meta']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extension 'colcon_meta'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extensions ['ros']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extension 'ros'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extensions ['cmake', 'python']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extension 'cmake'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extension 'python'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extensions ['python_setup_py']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/utils) by extension 'python_setup_py'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/acc_2026_project) by extensions ['ignore', 'ignore_ament_install']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/acc_2026_project) by extension 'ignore'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/acc_2026_project) by extension 'ignore_ament_install'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/acc_2026_project) by extensions ['colcon_pkg']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/acc_2026_project) by extension 'colcon_pkg'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/acc_2026_project) by extensions ['colcon_meta']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/acc_2026_project) by extension 'colcon_meta'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/acc_2026_project) by extensions ['ros']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/acc_2026_project) by extension 'ros'
+[2.947s] DEBUG:colcon.colcon_core.package_identification:Package 'src/acc_2026_project' with type 'ros.ament_python' and name 'acc_2026_project'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['ignore', 'ignore_ament_install']
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'ignore'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'ignore_ament_install'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['colcon_pkg']
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'colcon_pkg'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['colcon_meta']
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'colcon_meta'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['ros']
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'ros'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['cmake', 'python']
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'cmake'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'python'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['python_setup_py']
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'python_setup_py'
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_autonomy) by extensions ['ignore', 'ignore_ament_install']
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_autonomy) by extension 'ignore'
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_autonomy) by extension 'ignore_ament_install'
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_autonomy) by extensions ['colcon_pkg']
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_autonomy) by extension 'colcon_pkg'
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_autonomy) by extensions ['colcon_meta']
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_autonomy) by extension 'colcon_meta'
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_autonomy) by extensions ['ros']
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_autonomy) by extension 'ros'
+[2.948s] DEBUG:colcon.colcon_core.package_identification:Package 'src/qcar2_autonomy' with type 'ros.ament_python' and name 'qcar2_autonomy'
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_interfaces) by extension 'ignore'
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_interfaces) by extension 'ignore_ament_install'
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_interfaces) by extensions ['colcon_pkg']
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_interfaces) by extension 'colcon_pkg'
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_interfaces) by extensions ['colcon_meta']
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_interfaces) by extension 'colcon_meta'
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_interfaces) by extensions ['ros']
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_interfaces) by extension 'ros'
+[2.949s] DEBUG:colcon.colcon_core.package_identification:Package 'src/qcar2_interfaces' with type 'ros.ament_cmake' and name 'qcar2_interfaces'
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_nodes) by extensions ['ignore', 'ignore_ament_install']
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_nodes) by extension 'ignore'
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_nodes) by extension 'ignore_ament_install'
+[2.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_nodes) by extensions ['colcon_pkg']
+[2.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_nodes) by extension 'colcon_pkg'
+[2.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_nodes) by extensions ['colcon_meta']
+[2.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_nodes) by extension 'colcon_meta'
+[2.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_nodes) by extensions ['ros']
+[2.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/qcar2_nodes) by extension 'ros'
+[2.951s] DEBUG:colcon.colcon_core.package_identification:Package 'src/qcar2_nodes' with type 'ros.ament_cmake' and name 'qcar2_nodes'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts) by extensions ['ignore', 'ignore_ament_install']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts) by extension 'ignore'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts) by extension 'ignore_ament_install'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts) by extensions ['colcon_pkg']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts) by extension 'colcon_pkg'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts) by extensions ['colcon_meta']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts) by extension 'colcon_meta'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts) by extensions ['ros']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts) by extension 'ros'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts) by extensions ['cmake', 'python']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts) by extension 'cmake'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts) by extension 'python'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts) by extensions ['python_setup_py']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts) by extension 'python_setup_py'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python) by extensions ['ignore', 'ignore_ament_install']
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python) by extension 'ignore'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python) by extension 'ignore_ament_install'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python) by extensions ['colcon_pkg']
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python) by extension 'colcon_pkg'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python) by extensions ['colcon_meta']
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python) by extension 'colcon_meta'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python) by extensions ['ros']
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python) by extension 'ros'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python) by extensions ['cmake', 'python']
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python) by extension 'cmake'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python) by extension 'python'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python) by extensions ['python_setup_py']
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python) by extension 'python_setup_py'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python/__pycache__) by extension 'ignore'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python/__pycache__) by extension 'ignore_ament_install'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python/__pycache__) by extensions ['colcon_pkg']
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python/__pycache__) by extension 'colcon_pkg'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python/__pycache__) by extensions ['colcon_meta']
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python/__pycache__) by extension 'colcon_meta'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python/__pycache__) by extensions ['ros']
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python/__pycache__) by extension 'ros'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python/__pycache__) by extensions ['cmake', 'python']
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python/__pycache__) by extension 'cmake'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python/__pycache__) by extension 'python'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python/__pycache__) by extensions ['python_setup_py']
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/quanser_scripts/Base_Scenarios_Python/__pycache__) by extension 'python_setup_py'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_models) by extensions ['ignore', 'ignore_ament_install']
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_models) by extension 'ignore'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_models) by extension 'ignore_ament_install'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_models) by extensions ['colcon_pkg']
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_models) by extension 'colcon_pkg'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_models) by extensions ['colcon_meta']
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_models) by extension 'colcon_meta'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_models) by extensions ['ros']
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_models) by extension 'ros'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_models) by extensions ['cmake', 'python']
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_models) by extension 'cmake'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_models) by extension 'python'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_models) by extensions ['python_setup_py']
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_models) by extension 'python_setup_py'
+[2.953s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.953s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.953s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.953s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.953s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.055s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /workspaces/isaac_ros-dev/install
+[3.066s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /workspace/cartographer_ws/install
+[3.078s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 289 installed packages in /opt/ros/humble
+[3.079s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.191s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_common' build argument 'cmake_args' from command line to 'None'
+[3.191s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_common' build argument 'cmake_target' from command line to 'None'
+[3.191s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.191s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_common' build argument 'cmake_clean_cache' from command line to 'False'
+[3.191s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_common' build argument 'cmake_clean_first' from command line to 'False'
+[3.191s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_common' build argument 'cmake_force_configure' from command line to 'False'
+[3.191s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_common' build argument 'ament_cmake_args' from command line to 'None'
+[3.192s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_common' build argument 'catkin_cmake_args' from command line to 'None'
+[3.192s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.192s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_ros_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/isaac_ros-dev/build/isaac_ros_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/isaac_ros-dev/install/isaac_ros_common', 'merge_install': False, 'path': '/workspaces/isaac_ros-dev/isaac_ros_common', 'symlink_install': False, 'test_result_base': None}
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_test' build argument 'cmake_args' from command line to 'None'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_test' build argument 'cmake_target' from command line to 'None'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_test' build argument 'cmake_clean_cache' from command line to 'False'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_test' build argument 'cmake_clean_first' from command line to 'False'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_test' build argument 'cmake_force_configure' from command line to 'False'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_test' build argument 'ament_cmake_args' from command line to 'None'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_test' build argument 'catkin_cmake_args' from command line to 'None'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.202s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_ros_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/isaac_ros-dev/build/isaac_ros_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/isaac_ros-dev/install/isaac_ros_test', 'merge_install': False, 'path': '/workspaces/isaac_ros-dev/isaac_ros_test', 'symlink_install': False, 'test_result_base': None}
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'cmake_args' from command line to 'None'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'cmake_target' from command line to 'None'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'qcar2_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.213s] DEBUG:colcon.colcon_core.verb:Building package 'qcar2_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/isaac_ros-dev/build/qcar2_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/isaac_ros-dev/install/qcar2_interfaces', 'merge_install': False, 'path': '/workspaces/isaac_ros-dev/src/qcar2_interfaces', 'symlink_install': False, 'test_result_base': None}
+[3.224s] Level 5:colcon.colcon_core.verb:set package 'acc_2026_project' build argument 'cmake_args' from command line to 'None'
+[3.224s] Level 5:colcon.colcon_core.verb:set package 'acc_2026_project' build argument 'cmake_target' from command line to 'None'
+[3.224s] Level 5:colcon.colcon_core.verb:set package 'acc_2026_project' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.224s] Level 5:colcon.colcon_core.verb:set package 'acc_2026_project' build argument 'cmake_clean_cache' from command line to 'False'
+[3.224s] Level 5:colcon.colcon_core.verb:set package 'acc_2026_project' build argument 'cmake_clean_first' from command line to 'False'
+[3.224s] Level 5:colcon.colcon_core.verb:set package 'acc_2026_project' build argument 'cmake_force_configure' from command line to 'False'
+[3.224s] Level 5:colcon.colcon_core.verb:set package 'acc_2026_project' build argument 'ament_cmake_args' from command line to 'None'
+[3.224s] Level 5:colcon.colcon_core.verb:set package 'acc_2026_project' build argument 'catkin_cmake_args' from command line to 'None'
+[3.224s] Level 5:colcon.colcon_core.verb:set package 'acc_2026_project' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.224s] DEBUG:colcon.colcon_core.verb:Building package 'acc_2026_project' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/isaac_ros-dev/build/acc_2026_project', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/isaac_ros-dev/install/acc_2026_project', 'merge_install': False, 'path': '/workspaces/isaac_ros-dev/src/acc_2026_project', 'symlink_install': False, 'test_result_base': None}
+[3.235s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_apriltag_interfaces' build argument 'cmake_args' from command line to 'None'
+[3.235s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_apriltag_interfaces' build argument 'cmake_target' from command line to 'None'
+[3.235s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_apriltag_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.235s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_apriltag_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[3.235s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_apriltag_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[3.235s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_apriltag_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[3.235s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_apriltag_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[3.235s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_apriltag_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[3.235s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_apriltag_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.235s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_ros_apriltag_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/isaac_ros-dev/build/isaac_ros_apriltag_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces', 'merge_install': False, 'path': '/workspaces/isaac_ros-dev/isaac_ros_apriltag_interfaces', 'symlink_install': False, 'test_result_base': None}
+[3.245s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_bi3d_interfaces' build argument 'cmake_args' from command line to 'None'
+[3.245s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_bi3d_interfaces' build argument 'cmake_target' from command line to 'None'
+[3.245s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_bi3d_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.245s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_bi3d_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[3.245s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_bi3d_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[3.245s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_bi3d_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[3.245s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_bi3d_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[3.245s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_bi3d_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[3.245s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_bi3d_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.246s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_ros_bi3d_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/isaac_ros-dev/build/isaac_ros_bi3d_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces', 'merge_install': False, 'path': '/workspaces/isaac_ros-dev/isaac_ros_bi3d_interfaces', 'symlink_install': False, 'test_result_base': None}
+[3.256s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_nitros_bridge_interfaces' build argument 'cmake_args' from command line to 'None'
+[3.256s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_nitros_bridge_interfaces' build argument 'cmake_target' from command line to 'None'
+[3.256s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_nitros_bridge_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.256s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_nitros_bridge_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[3.256s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_nitros_bridge_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[3.256s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_nitros_bridge_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[3.256s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_nitros_bridge_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[3.256s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_nitros_bridge_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[3.256s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_nitros_bridge_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.256s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_ros_nitros_bridge_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_bridge_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/isaac_ros-dev/install/isaac_ros_nitros_bridge_interfaces', 'merge_install': False, 'path': '/workspaces/isaac_ros-dev/isaac_ros_nitros_bridge_interfaces', 'symlink_install': False, 'test_result_base': None}
+[3.267s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_nova_interfaces' build argument 'cmake_args' from command line to 'None'
+[3.267s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_nova_interfaces' build argument 'cmake_target' from command line to 'None'
+[3.267s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_nova_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.267s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_nova_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[3.267s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_nova_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[3.267s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_nova_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[3.267s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_nova_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[3.267s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_nova_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[3.267s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_nova_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.267s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_ros_nova_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/isaac_ros-dev/build/isaac_ros_nova_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/isaac_ros-dev/install/isaac_ros_nova_interfaces', 'merge_install': False, 'path': '/workspaces/isaac_ros-dev/isaac_ros_nova_interfaces', 'symlink_install': False, 'test_result_base': None}
+[3.280s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_pointcloud_interfaces' build argument 'cmake_args' from command line to 'None'
+[3.280s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_pointcloud_interfaces' build argument 'cmake_target' from command line to 'None'
+[3.280s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_pointcloud_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.280s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_pointcloud_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[3.280s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_pointcloud_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[3.280s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_pointcloud_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[3.280s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_pointcloud_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[3.280s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_pointcloud_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[3.280s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_pointcloud_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.280s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_ros_pointcloud_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/isaac_ros-dev/build/isaac_ros_pointcloud_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces', 'merge_install': False, 'path': '/workspaces/isaac_ros-dev/isaac_ros_pointcloud_interfaces', 'symlink_install': False, 'test_result_base': None}
+[3.292s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_tensor_list_interfaces' build argument 'cmake_args' from command line to 'None'
+[3.293s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_tensor_list_interfaces' build argument 'cmake_target' from command line to 'None'
+[3.293s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_tensor_list_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.293s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_tensor_list_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[3.293s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_tensor_list_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[3.293s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_tensor_list_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[3.293s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_tensor_list_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[3.293s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_tensor_list_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[3.293s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_tensor_list_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.293s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_ros_tensor_list_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/isaac_ros-dev/build/isaac_ros_tensor_list_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces', 'merge_install': False, 'path': '/workspaces/isaac_ros-dev/isaac_ros_tensor_list_interfaces', 'symlink_install': False, 'test_result_base': None}
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'qcar2_autonomy' build argument 'cmake_args' from command line to 'None'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'qcar2_autonomy' build argument 'cmake_target' from command line to 'None'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'qcar2_autonomy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'qcar2_autonomy' build argument 'cmake_clean_cache' from command line to 'False'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'qcar2_autonomy' build argument 'cmake_clean_first' from command line to 'False'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'qcar2_autonomy' build argument 'cmake_force_configure' from command line to 'False'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'qcar2_autonomy' build argument 'ament_cmake_args' from command line to 'None'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'qcar2_autonomy' build argument 'catkin_cmake_args' from command line to 'None'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'qcar2_autonomy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.304s] DEBUG:colcon.colcon_core.verb:Building package 'qcar2_autonomy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/isaac_ros-dev/build/qcar2_autonomy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/isaac_ros-dev/install/qcar2_autonomy', 'merge_install': False, 'path': '/workspaces/isaac_ros-dev/src/qcar2_autonomy', 'symlink_install': False, 'test_result_base': None}
+[3.315s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'cmake_args' from command line to 'None'
+[3.315s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'cmake_target' from command line to 'None'
+[3.315s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.315s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[3.315s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'cmake_clean_first' from command line to 'False'
+[3.315s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'cmake_force_configure' from command line to 'False'
+[3.315s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'ament_cmake_args' from command line to 'None'
+[3.315s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[3.315s] Level 5:colcon.colcon_core.verb:set package 'qcar2_nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.315s] DEBUG:colcon.colcon_core.verb:Building package 'qcar2_nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/isaac_ros-dev/build/qcar2_nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/isaac_ros-dev/install/qcar2_nodes', 'merge_install': False, 'path': '/workspaces/isaac_ros-dev/src/qcar2_nodes', 'symlink_install': False, 'test_result_base': None}
+[3.326s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.337s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.337s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/isaac_ros-dev/isaac_ros_common' with build type 'ament_cmake'
+[3.338s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/isaac_ros-dev/isaac_ros_common'
+[3.351s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.403s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/isaac_ros-dev/src/qcar2_interfaces' with build type 'ament_cmake'
+[3.404s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/isaac_ros-dev/src/qcar2_interfaces'
+[3.421s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.473s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspaces/isaac_ros-dev/isaac_ros_test' with build type 'ament_python'
+[3.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_ros_test', 'ament_prefix_path')
+[3.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/isaac_ros_test/share/isaac_ros_test/hook/ament_prefix_path.ps1'
+[3.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/isaac_ros-dev/install/isaac_ros_test/share/isaac_ros_test/hook/ament_prefix_path.dsv'
+[3.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/isaac_ros-dev/install/isaac_ros_test/share/isaac_ros_test/hook/ament_prefix_path.sh'
+[3.502s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.502s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspace/cartographer_ws/install/isaac_ros_test:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /workspaces/isaac_ros-dev/isaac_ros_common -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_common
+[3.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/isaac_ros-dev/build/qcar2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspace/cartographer_ws/install/isaac_ros_test:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/qcar2_interfaces -- -j16 -l16
+[4.045s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspaces/isaac_ros-dev/isaac_ros_test'
+[4.057s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.057s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/isaac_ros-dev/build/qcar2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspace/cartographer_ws/install/isaac_ros_test:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/qcar2_interfaces -- -j16 -l16
+[4.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_common' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspace/cartographer_ws/install/isaac_ros_test:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /workspaces/isaac_ros-dev/isaac_ros_common -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_common
+[4.498s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaac_ros_common)
+[4.514s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/isaac_ros_common' for CMake module files
+[4.514s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/isaac_ros_common' for CMake config files
+[4.515s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/isaac_ros_common/bin'
+[4.515s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/isaac_ros_common/lib/pkgconfig/isaac_ros_common.pc'
+[4.515s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/isaac_ros_common/lib/python3.8/site-packages'
+[4.516s] Level 1:colcon.colcon_core.environment:checking '/workspaces/isaac_ros-dev/install/isaac_ros_common/bin'
+[4.527s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/isaac_ros_common/share/isaac_ros_common/package.ps1'
+[4.528s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/isaac_ros-dev/install/isaac_ros_common/share/isaac_ros_common/package.dsv'
+[4.529s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/isaac_ros_common/share/isaac_ros_common/package.sh'
+[4.529s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/isaac_ros_common/share/isaac_ros_common/package.bash'
+[4.530s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/isaac_ros-dev/install/isaac_ros_common/share/isaac_ros_common/package.zsh'
+[4.531s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/isaac_ros-dev/install/isaac_ros_common/share/colcon-core/packages/isaac_ros_common)
+[5.314s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.314s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.314s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[5.315s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.335s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.335s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.335s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.336s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.339s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[5.339s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.352s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/isaac_ros-dev/install/local_setup.ps1'
+[5.353s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/isaac_ros-dev/install/_local_setup_util_ps1.py'
+[5.354s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/isaac_ros-dev/install/setup.ps1'
+[5.366s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/isaac_ros-dev/install/local_setup.sh'
+[5.367s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/isaac_ros-dev/install/_local_setup_util_sh.py'
+[5.368s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/isaac_ros-dev/install/setup.sh'
+[5.380s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/isaac_ros-dev/install/local_setup.bash'
+[5.380s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/isaac_ros-dev/install/setup.bash'
+[5.393s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/isaac_ros-dev/install/local_setup.zsh'
+[5.394s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/isaac_ros-dev/install/setup.zsh'

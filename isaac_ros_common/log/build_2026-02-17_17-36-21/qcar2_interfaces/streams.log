@@ -1,0 +1,31 @@
+[0.093s] Invoking command in '/workspaces/isaac_ros-dev/build/qcar2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspace/cartographer_ws/install/isaac_ros_test:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /workspaces/isaac_ros-dev/src/qcar2_interfaces -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/qcar2_interfaces
+[0.149s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.337s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.366s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.373s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.379s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.447s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.789s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.962s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.177s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.227s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.272s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.272s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.273s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.304s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.340s] -- Added test 'lint_cmake' to check CMake code style
+[1.341s] -- Added test 'xmllint' to check XML markup files
+[1.346s] -- Configuring done
+[1.424s] -- Generating done
+[1.427s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/qcar2_interfaces
+[1.437s] Invoked command in '/workspaces/isaac_ros-dev/build/qcar2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspace/cartographer_ws/install/isaac_ros_test:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /workspaces/isaac_ros-dev/src/qcar2_interfaces -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/qcar2_interfaces
+[1.443s] Invoking command in '/workspaces/isaac_ros-dev/build/qcar2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspace/cartographer_ws/install/isaac_ros_test:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/qcar2_interfaces -- -j16 -l16
+[1.499s] [35m[1mConsolidate compiler generated dependencies of target qcar2_interfaces__rosidl_generator_c[0m
+[1.506s] failed to create symbolic link '/workspaces/isaac_ros-dev/build/qcar2_interfaces/ament_cmake_python/qcar2_interfaces/qcar2_interfaces' because existing path cannot be removed: Is a directory
+[1.507s] make[2]: *** [CMakeFiles/ament_cmake_python_symlink_qcar2_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_qcar2_interfaces] Error 1
+[1.507s] make[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_qcar2_interfaces.dir/all] Error 2
+[1.507s] make[1]: *** Waiting for unfinished jobs....
+[1.523s] [  2%] Built target qcar2_interfaces__cpp
+[1.529s] [ 12%] Built target qcar2_interfaces__rosidl_generator_c
+[1.530s] make: *** [Makefile:146: all] Error 2
+[1.533s] Invoked command in '/workspaces/isaac_ros-dev/build/qcar2_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspace/cartographer_ws/install/isaac_ros_test:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/qcar2_interfaces -- -j16 -l16

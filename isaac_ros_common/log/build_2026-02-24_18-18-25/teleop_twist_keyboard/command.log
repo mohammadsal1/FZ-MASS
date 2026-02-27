@@ -1,0 +1,2 @@
+Invoking command in '/workspaces/isaac_ros-dev/build/teleop_twist_keyboard': _=/usr/bin/env /usr/bin/cmake /workspaces/isaac_ros-dev/src/teleop_twist_keyboard -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/teleop_twist_keyboard
+Invoked command in '/workspaces/isaac_ros-dev/build/teleop_twist_keyboard' returned '1': _=/usr/bin/env /usr/bin/cmake /workspaces/isaac_ros-dev/src/teleop_twist_keyboard -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/teleop_twist_keyboard

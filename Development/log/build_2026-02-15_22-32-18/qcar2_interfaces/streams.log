@@ -1,0 +1,224 @@
+[0.086s] Invoking command in '/workspaces/isaac_ros-dev/build/qcar2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspace/cartographer_ws/install/isaac_ros_test:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /workspaces/isaac_ros-dev/ros2/src/qcar2_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/qcar2_interfaces
+[0.299s] -- The C compiler identification is GNU 9.4.0
+[0.426s] -- The CXX compiler identification is GNU 9.4.0
+[0.450s] -- Detecting C compiler ABI info
+[0.564s] -- Detecting C compiler ABI info - done
+[0.577s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.578s] -- Detecting C compile features
+[0.578s] -- Detecting C compile features - done
+[0.583s] -- Detecting CXX compiler ABI info
+[0.697s] -- Detecting CXX compiler ABI info - done
+[0.709s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.709s] -- Detecting CXX compile features
+[0.709s] -- Detecting CXX compile features - done
+[0.720s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.595s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[1.676s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.738s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.749s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.763s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.836s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.152s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.307s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.526s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.567s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
+[2.571s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.639s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[2.639s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.639s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.639s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.673s] -- Found PythonExtra: .so  
+[2.734s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.773s] -- Added test 'lint_cmake' to check CMake code style
+[2.775s] -- Added test 'xmllint' to check XML markup files
+[2.781s] -- Configuring done
+[2.811s] -- Generating done
+[2.814s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/qcar2_interfaces
+[2.820s] Invoked command in '/workspaces/isaac_ros-dev/build/qcar2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspace/cartographer_ws/install/isaac_ros_test:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /workspaces/isaac_ros-dev/ros2/src/qcar2_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/qcar2_interfaces
+[2.824s] Invoking command in '/workspaces/isaac_ros-dev/build/qcar2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspace/cartographer_ws/install/isaac_ros_test:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/qcar2_interfaces -- -j16 -l16
+[2.886s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.916s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.920s] [  5%] Built target ament_cmake_python_symlink_qcar2_interfaces
+[3.345s] [  5%] Built target qcar2_interfaces__cpp
+[3.372s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.373s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.373s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.391s] [ 15%] [32mBuilding C object CMakeFiles/qcar2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/qcar2_interfaces/msg/detail/motor_commands__functions.c.o[0m
+[3.398s] [ 17%] [32mBuilding C object CMakeFiles/qcar2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/qcar2_interfaces/msg/detail/boolean_leds__functions.c.o[0m
+[3.443s] running egg_info
+[3.445s] creating qcar2_interfaces.egg-info
+[3.464s] writing qcar2_interfaces.egg-info/PKG-INFO
+[3.464s] writing dependency_links to qcar2_interfaces.egg-info/dependency_links.txt
+[3.464s] writing top-level names to qcar2_interfaces.egg-info/top_level.txt
+[3.465s] writing manifest file 'qcar2_interfaces.egg-info/SOURCES.txt'
+[3.517s] reading manifest file 'qcar2_interfaces.egg-info/SOURCES.txt'
+[3.518s] writing manifest file 'qcar2_interfaces.egg-info/SOURCES.txt'
+[3.523s] [ 20%] [32m[1mLinking C shared library libqcar2_interfaces__rosidl_generator_c.so[0m
+[3.589s] [ 20%] Built target qcar2_interfaces__rosidl_generator_c
+[3.612s] [ 20%] Built target ament_cmake_python_build_qcar2_interfaces_egg
+[3.626s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.634s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.634s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.936s] [ 30%] [32mBuilding CXX object CMakeFiles/qcar2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/qcar2_interfaces/msg/boolean_leds__type_support.cpp.o[0m
+[3.941s] [ 33%] [32mBuilding CXX object CMakeFiles/qcar2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/qcar2_interfaces/msg/motor_commands__type_support.cpp.o[0m
+[4.016s] [ 35%] [32mBuilding CXX object CMakeFiles/qcar2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/qcar2_interfaces/msg/detail/dds_fastrtps/motor_commands__type_support.cpp.o[0m
+[4.029s] [ 38%] [32mBuilding CXX object CMakeFiles/qcar2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/qcar2_interfaces/msg/detail/dds_fastrtps/boolean_leds__type_support.cpp.o[0m
+[4.074s] [ 41%] [32mBuilding CXX object CMakeFiles/qcar2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/qcar2_interfaces/msg/detail/boolean_leds__type_support.cpp.o[0m
+[4.074s] [ 43%] [32mBuilding CXX object CMakeFiles/qcar2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/qcar2_interfaces/msg/detail/motor_commands__type_support.cpp.o[0m
+[4.379s] [ 46%] [32mBuilding CXX object CMakeFiles/qcar2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qcar2_interfaces/msg/detail/boolean_leds__type_support_c.cpp.o[0m
+[4.389s] [ 48%] [32mBuilding CXX object CMakeFiles/qcar2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/qcar2_interfaces/msg/boolean_leds__type_support.cpp.o[0m
+[4.398s] [ 51%] [32mBuilding CXX object CMakeFiles/qcar2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qcar2_interfaces/msg/detail/motor_commands__type_support_c.cpp.o[0m
+[4.425s] [ 53%] [32mBuilding CXX object CMakeFiles/qcar2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/qcar2_interfaces/msg/motor_commands__type_support.cpp.o[0m
+[4.595s] [ 56%] [32m[1mLinking CXX shared library libqcar2_interfaces__rosidl_typesupport_c.so[0m
+[4.620s] [ 58%] [32mBuilding C object CMakeFiles/qcar2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/qcar2_interfaces/msg/detail/boolean_leds__type_support.c.o[0m
+[4.767s] [ 58%] Built target qcar2_interfaces__rosidl_typesupport_c
+[4.797s] [ 61%] [32mBuilding C object CMakeFiles/qcar2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/qcar2_interfaces/msg/detail/motor_commands__type_support.c.o[0m
+[4.936s] [ 64%] [32m[1mLinking C shared library libqcar2_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.990s] [ 66%] [32m[1mLinking CXX shared library libqcar2_interfaces__rosidl_typesupport_cpp.so[0m
+[5.003s] [ 66%] Built target qcar2_interfaces__rosidl_typesupport_introspection_c
+[5.091s] [ 66%] Built target qcar2_interfaces__rosidl_typesupport_cpp
+[5.337s] [ 69%] [32m[1mLinking CXX shared library libqcar2_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.449s] [ 71%] [32m[1mLinking CXX shared library libqcar2_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.472s] [ 71%] Built target qcar2_interfaces__rosidl_typesupport_fastrtps_c
+[5.506s] [ 74%] [32m[1mLinking CXX shared library libqcar2_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.588s] [ 74%] Built target qcar2_interfaces__rosidl_typesupport_introspection_cpp
+[5.643s] [ 74%] Built target qcar2_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.695s] [ 74%] Built target qcar2_interfaces
+[5.772s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.348s] [ 76%] Built target qcar2_interfaces__py
+[6.402s] [ 79%] [32mBuilding C object CMakeFiles/qcar2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/qcar2_interfaces/msg/_motor_commands_s.c.o[0m
+[6.406s] [ 82%] [32mBuilding C object CMakeFiles/qcar2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/qcar2_interfaces/msg/_boolean_leds_s.c.o[0m
+[6.573s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/qcar2_interfaces/libqcar2_interfaces__rosidl_generator_py.so[0m
+[6.633s] [ 84%] Built target qcar2_interfaces__rosidl_generator_py
+[6.702s] [ 89%] [32mBuilding C object CMakeFiles/qcar2_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/qcar2_interfaces/_qcar2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.702s] [ 89%] [32mBuilding C object CMakeFiles/qcar2_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/qcar2_interfaces/_qcar2_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.707s] [ 92%] [32mBuilding C object CMakeFiles/qcar2_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/qcar2_interfaces/_qcar2_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.836s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/qcar2_interfaces/qcar2_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.838s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/qcar2_interfaces/qcar2_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.849s] [100%] [32m[1mLinking C shared library rosidl_generator_py/qcar2_interfaces/qcar2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.896s] [100%] Built target qcar2_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.896s] [100%] Built target qcar2_interfaces__rosidl_typesupport_c__pyext
+[6.914s] [100%] Built target qcar2_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.925s] Invoked command in '/workspaces/isaac_ros-dev/build/qcar2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspace/cartographer_ws/install/isaac_ros_test:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/qcar2_interfaces -- -j16 -l16
+[8.476s] Invoking command in '/workspaces/isaac_ros-dev/build/qcar2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspace/cartographer_ws/install/isaac_ros_test:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/qcar2_interfaces
+[8.489s] -- Install configuration: ""
+[8.490s] -- Execute custom install script
+[8.497s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/ament_index/resource_index/rosidl_interfaces/qcar2_interfaces
+[8.504s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/boolean_leds.h
+[8.515s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/boolean_leds__functions.h
+[8.527s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/boolean_leds__struct.h
+[8.534s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/boolean_leds__type_support.h
+[8.540s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/motor_commands__functions.h
+[8.545s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/motor_commands__struct.h
+[8.552s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/motor_commands__type_support.h
+[8.563s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/motor_commands.h
+[8.568s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/rosidl_generator_c__visibility_control.h
+[8.574s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/environment/library_path.sh
+[8.579s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/environment/library_path.dsv
+[8.584s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/boolean_leds__rosidl_typesupport_fastrtps_c.h
+[8.588s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/motor_commands__rosidl_typesupport_fastrtps_c.h
+[8.593s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.602s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/boolean_leds__rosidl_typesupport_introspection_c.h
+[8.609s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/motor_commands__rosidl_typesupport_introspection_c.h
+[8.615s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.620s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/boolean_leds.hpp
+[8.624s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/boolean_leds__builder.hpp
+[8.630s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/boolean_leds__struct.hpp
+[8.636s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/boolean_leds__traits.hpp
+[8.644s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/motor_commands__builder.hpp
+[8.651s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/motor_commands__struct.hpp
+[8.657s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/motor_commands__traits.hpp
+[8.661s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/motor_commands.hpp
+[8.667s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/boolean_leds__rosidl_typesupport_fastrtps_cpp.hpp
+[8.673s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/motor_commands__rosidl_typesupport_fastrtps_cpp.hpp
+[8.677s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.682s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/boolean_leds__rosidl_typesupport_introspection_cpp.hpp
+[8.688s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/motor_commands__rosidl_typesupport_introspection_cpp.hpp
+[8.693s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/environment/pythonpath.sh
+[8.700s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/environment/pythonpath.dsv
+[8.712s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces-0.0.0-py3.8.egg-info/PKG-INFO
+[8.717s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces-0.0.0-py3.8.egg-info/SOURCES.txt
+[8.725s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces-0.0.0-py3.8.egg-info/dependency_links.txt
+[8.730s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces-0.0.0-py3.8.egg-info/top_level.txt
+[8.734s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/__init__.py
+[8.740s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/_qcar2_interfaces_s.ep.rosidl_typesupport_c.c
+[8.744s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/_qcar2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.749s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/_qcar2_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[8.755s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/libqcar2_interfaces__rosidl_generator_py.so
+[8.760s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/msg/__init__.py
+[8.765s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/msg/_boolean_leds.py
+[8.769s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/msg/_boolean_leds_s.c
+[8.777s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/msg/_motor_commands.py
+[8.782s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/msg/_motor_commands_s.c
+[8.788s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/qcar2_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[8.794s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/qcar2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[8.799s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/qcar2_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[8.806s] -- Up-to-date symlink: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/qcar2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[8.806s] -- Up-to-date symlink: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/qcar2_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[8.806s] -- Up-to-date symlink: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/qcar2_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[8.806s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/msg/MotorCommands.idl
+[8.811s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/msg/BooleanLeds.idl
+[8.817s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/msg/MotorCommands.msg
+[8.823s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/msg/BooleanLeds.msg
+[8.829s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/ament_index/resource_index/package_run_dependencies/qcar2_interfaces
+[8.844s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/ament_index/resource_index/parent_prefix_path/qcar2_interfaces
+[8.853s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/environment/ament_prefix_path.sh
+[8.859s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/environment/ament_prefix_path.dsv
+[8.865s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/environment/path.sh
+[8.876s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/environment/path.dsv
+[8.882s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/local_setup.bash
+[8.886s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/local_setup.sh
+[8.891s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/local_setup.zsh
+[8.897s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/local_setup.dsv
+[8.905s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/package.dsv
+[8.914s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/ament_index/resource_index/packages/qcar2_interfaces
+[8.921s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/rosidl_cmake-extras.cmake
+[8.930s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.940s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[8.949s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[8.958s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.968s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.977s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.983s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/qcar2_interfacesConfig.cmake
+[8.989s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/qcar2_interfacesConfig-version.cmake
+[8.997s] -- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/package.xml
+[9.008s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_generator_c.so
+[9.008s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_generator_c.so" to ""
+[9.008s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_fastrtps_c.so
+[9.008s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[9.008s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_introspection_c.so
+[9.009s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[9.009s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_c.so
+[9.009s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_c.so" to ""
+[9.010s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[9.011s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.011s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_introspection_cpp.so
+[9.012s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[9.012s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_cpp.so
+[9.012s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_cpp.so" to ""
+[9.055s] Listing '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces'...
+[9.055s] Compiling '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/__init__.py'...
+[9.055s] Listing '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/msg'...
+[9.055s] Compiling '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/msg/__init__.py'...
+[9.055s] Compiling '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/msg/_boolean_leds.py'...
+[9.055s] Compiling '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/msg/_motor_commands.py'...
+[9.059s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_generator_py.so
+[9.059s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_generator_py.so" to ""
+[9.059s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/export_qcar2_interfaces__rosidl_generator_cExport.cmake
+[9.059s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/export_qcar2_interfaces__rosidl_generator_cExport-noconfig.cmake
+[9.060s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/export_qcar2_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[9.060s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/export_qcar2_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.060s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/qcar2_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[9.060s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/qcar2_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.060s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/qcar2_interfaces__rosidl_typesupport_cExport.cmake
+[9.060s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/qcar2_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[9.060s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/export_qcar2_interfaces__rosidl_generator_cppExport.cmake
+[9.061s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/export_qcar2_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.061s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/export_qcar2_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.061s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/qcar2_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[9.061s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/qcar2_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.061s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/qcar2_interfaces__rosidl_typesupport_cppExport.cmake
+[9.061s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/qcar2_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[9.061s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/export_qcar2_interfaces__rosidl_generator_pyExport.cmake
+[9.062s] -- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/export_qcar2_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[9.063s] Invoked command in '/workspaces/isaac_ros-dev/build/qcar2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspace/cartographer_ws/install/isaac_ros_test:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/qcar2_interfaces

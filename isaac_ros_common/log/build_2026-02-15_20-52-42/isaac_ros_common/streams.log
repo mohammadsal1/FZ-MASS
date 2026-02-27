@@ -1,0 +1,64 @@
+[0.158s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/cartographer_ws/install/isaac_ros_test:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /workspaces/isaac_ros-dev/isaac_ros_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_common
+[0.513s] -- The C compiler identification is GNU 9.4.0
+[0.513s] -- The CXX compiler identification is GNU 9.4.0
+[0.514s] -- Detecting C compiler ABI info
+[0.514s] -- Detecting C compiler ABI info - done
+[0.514s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.514s] -- Detecting C compile features
+[0.514s] -- Detecting C compile features - done
+[0.514s] -- Detecting CXX compiler ABI info
+[0.515s] -- Detecting CXX compiler ABI info - done
+[0.515s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.515s] -- Detecting CXX compile features
+[0.515s] -- Detecting CXX compile features - done
+[0.516s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.059s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[1.109s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.249s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.255s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.263s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.276s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.293s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.357s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.360s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.523s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.576s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.636s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.649s] -- Looking for pthread.h
+[1.717s] -- Looking for pthread.h - found
+[1.717s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.793s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.794s] -- Looking for pthread_create in pthreads
+[1.861s] -- Looking for pthread_create in pthreads - not found
+[1.861s] -- Looking for pthread_create in pthread
+[1.934s] -- Looking for pthread_create in pthread - found
+[1.935s] -- Found Threads: TRUE  
+[2.055s] -- Loading isaac_ros_common extras
+[2.055s] -- CMAKE_BUILD_TYPE: Release
+[2.080s] -- Found CUDA: /usr/local/cuda (found version "11.8") 
+[2.089s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.114s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.114s] -- Configured cppcheck include dirs: /workspaces/isaac_ros-dev/isaac_ros_common/include
+[2.114s] -- Configured cppcheck exclude dirs and/or files: 
+[2.116s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.116s] -- Configured cpplint exclude dirs and/or files: 
+[2.116s] -- Added test 'lint_cmake' to check CMake code style
+[2.117s] -- Added test 'uncrustify' to check C / C++ code style
+[2.117s] -- Configured uncrustify additional arguments: 
+[2.118s] -- Added test 'xmllint' to check XML markup files
+[2.120s] -- Configuring done
+[2.123s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_add_library.cmake:66 (add_library):
+[2.123s]   Cannot find source file:
+[2.123s] 
+[2.123s]     src/vpi_utilities.cpp
+[2.123s] Call Stack (most recent call first):
+[2.123s]   CMakeLists.txt:34 (ament_auto_add_library)
+[2.123s] 
+[2.123s] [0m
+[2.123s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_add_library.cmake:66 (add_library):
+[2.123s]   No SOURCES given to target: isaac_ros_common
+[2.123s] Call Stack (most recent call first):
+[2.123s]   CMakeLists.txt:34 (ament_auto_add_library)
+[2.123s] 
+[2.123s] [0m
+[2.123s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

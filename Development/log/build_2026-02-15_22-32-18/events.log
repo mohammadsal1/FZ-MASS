@@ -1,0 +1,617 @@
+[0.000000] (-) TimerEvent: {}
+[0.000440] (qcar2_interfaces) JobQueued: {'identifier': 'qcar2_interfaces', 'dependencies': OrderedDict()}
+[0.000562] (acc_2026_project) JobQueued: {'identifier': 'acc_2026_project', 'dependencies': OrderedDict([('qcar2_interfaces', '/workspaces/isaac_ros-dev/install/qcar2_interfaces')])}
+[0.000585] (qcar2_autonomy) JobQueued: {'identifier': 'qcar2_autonomy', 'dependencies': OrderedDict([('qcar2_interfaces', '/workspaces/isaac_ros-dev/install/qcar2_interfaces')])}
+[0.000603] (qcar2_nodes) JobQueued: {'identifier': 'qcar2_nodes', 'dependencies': OrderedDict([('qcar2_interfaces', '/workspaces/isaac_ros-dev/install/qcar2_interfaces')])}
+[0.000846] (qcar2_interfaces) JobStarted: {'identifier': 'qcar2_interfaces'}
+[0.085978] (qcar2_interfaces) JobProgress: {'identifier': 'qcar2_interfaces', 'progress': 'cmake'}
+[0.086284] (qcar2_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/isaac_ros-dev/ros2/src/qcar2_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/qcar2_interfaces'], 'cwd': '/workspaces/isaac_ros-dev/build/qcar2_interfaces', 'env': OrderedDict([('NPP_VERSION', '11.8.0.86'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('DALI_BUILD', '5838886'), ('CUSOLVER_VERSION', '11.4.1.48'), ('USER_UID', '1000'), ('CUBLAS_VERSION', '11.11.3.6'), ('PKG_CONFIG_PATH', '/workspace/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/workspace/cartographer_ws/install/cartographer/lib/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', 'mohammadsal-IdeaPad-Slim-3-14IRH8'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/rtps_udp_profile.xml'), ('DCGM_VERSION', '2.2.9'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=9.0'), ('CUFFT_VERSION', '10.9.0.58'), ('CUDA_CACHE_DISABLE', '1'), ('NCCL_VERSION', '2.15.1'), ('CUSPARSE_VERSION', '11.7.5.86'), ('ENV', '/etc/shinit_v2'), ('PWD', '/workspaces/isaac_ros-dev/build/qcar2_interfaces'), ('OPENUCX_VERSION', '1.14.0'), ('NSIGHT_SYSTEMS_VERSION', '2022.3.1.43'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,video'), ('POLYGRAPHY_VERSION', '0.38.0'), ('TF_ENABLE_WINOGRAD_NONFUSED', '1'), ('TRT_VERSION', '8.5.0.12'), ('USER_GID', '1000'), ('NVIDIA_PRODUCT_NAME', 'Triton Server'), ('RDMACORE_VERSION', '36.0'), ('HOME', '/home/admin'), ('USERNAME', 'admin'), ('LANG', 'en_US.UTF-8'), ('CUDA_VERSION', '11.8.0.062'), ('CURAND_VERSION', '10.3.0.86'), ('AMENT_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspace/cartographer_ws/install/perception_pcl:/workspace/cartographer_ws/install/pcl_ros:/workspace/cartographer_ws/install/cartographer_rviz:/workspace/cartographer_ws/install/cartographer_ros:/workspace/cartographer_ws/install/pcl_conversions:/workspace/cartographer_ws/install/pcl_msgs:/workspace/cartographer_ws/install/isaac_ros_test:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces:/workspace/cartographer_ws/install/isaac_ros_common:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces:/workspace/cartographer_ws/install/control_msgs:/workspace/cartographer_ws/install/cartographer_ros_msgs:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspace/cartographer_ws/install/perception_pcl:/workspace/cartographer_ws/install/pcl_ros:/workspace/cartographer_ws/install/cartographer_rviz:/workspace/cartographer_ws/install/cartographer_ros:/workspace/cartographer_ws/install/pcl_conversions:/workspace/cartographer_ws/install/pcl_msgs:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces:/workspace/cartographer_ws/install/isaac_ros_common:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces:/workspace/cartographer_ws/install/control_msgs:/workspace/cartographer_ws/install/cartographer_ros_msgs:/workspace/cartographer_ws/install/cartographer:/workspace/cartographer_ws/install/absl:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspace/cartographer_ws/install/isaac_ros_test:/opt/ros/humble'), ('COLCON_PREFIX_PATH', '/workspaces/isaac_ros-dev/install:/workspace/cartographer_ws/install'), ('CUTENSOR_VERSION', '1.6.1.5'), ('TRITON_SERVER_GPU_ENABLED', '1'), ('HPCX_VERSION', '2.12.1a0'), ('PYTHONPATH', '/workspaces/isaac_ros-dev/build/qcar2_autonomy:/workspaces/isaac_ros-dev/install/qcar2_autonomy/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/acc_2026_project:/workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/pcl_msgs/lib/python3.8/site-packages:/workspace/cartographer_ws/build/isaac_ros_test:/workspace/cartographer_ws/install/isaac_ros_test/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/control_msgs/lib/python3.8/site-packages:/workspace/cartographer_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/0_libraries/python'), ('COLCON', '1'), ('TERM', 'xterm'), ('TRITON_SERVER_VERSION', '2.26.0'), ('GDRCOPY_VERSION', '2.3'), ('USER', 'mohammadsal'), ('OPENMPI_VERSION', '4.1.4'), ('NVJPEG_VERSION', '11.9.0.86'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs:'), ('DISPLAY', ':0'), ('SHLVL', '1'), ('BASH_ENV', '/etc/bash.bashrc'), ('TF_AUTOTUNE_THRESHOLD', '2'), ('CUDNN_VERSION', '8.6.0.163'), ('NSIGHT_COMPUTE_VERSION', '2022.3.0.22'), ('DALI_VERSION', '1.17.0'), ('NVIDIA_TRITON_SERVER_VERSION', '22.09'), ('LD_LIBRARY_PATH', '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib:/workspace/cartographer_ws/install/pcl_ros/lib:/workspace/cartographer_ws/install/cartographer_rviz/lib:/workspace/cartographer_ws/install/cartographer_ros/lib:/workspace/cartographer_ws/install/pcl_msgs/lib:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_common/lib:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces/lib:/workspace/cartographer_ws/install/control_msgs/lib:/workspace/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/tritonserver/backends/onnxruntime:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/opt/tritonserver/lib'), ('NVIDIA_BUILD_ID', '44909143'), ('ROS_LOCALHOST_ONLY', '0'), ('OMPI_MCA_coll_hcoll_enable', '0'), ('OPAL_PREFIX', '/opt/hpcx/ompi'), ('CUDA_DRIVER_VERSION', '520.61.03'), ('_CUDA_COMPAT_PATH', '/usr/local/cuda/compat'), ('PATH', '/workspace/cartographer_ws/install/cartographer/bin:/opt/ros/humble/bin:/opt/tritonserver/bin:/usr/local/mpi/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ucx/bin:/opt/nvidia/tao'), ('TRITON_SERVER_USER', 'triton-server'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources'), ('MOFED_VERSION', '5.4-rdmacore36.0'), ('TRTOSS_VERSION', ''), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_ROOT', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('TF_ADJUST_HUE_FUSED', '1'), ('TF_ADJUST_SATURATION_FUSED', '1'), ('SHARP_COLL_ENABLE_CUDA', '0'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('OLDPWD', '/workspaces/isaac_ros-dev/ros2/src/acc_2026_project/acc_2026_project'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.099777] (-) TimerEvent: {}
+[0.200552] (-) TimerEvent: {}
+[0.299193] (qcar2_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.300628] (-) TimerEvent: {}
+[0.401110] (-) TimerEvent: {}
+[0.426895] (qcar2_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.450033] (qcar2_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.501325] (-) TimerEvent: {}
+[0.564977] (qcar2_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.577697] (qcar2_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.578477] (qcar2_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.579076] (qcar2_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.583602] (qcar2_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.601471] (-) TimerEvent: {}
+[0.697225] (qcar2_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.701596] (-) TimerEvent: {}
+[0.708958] (qcar2_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.709496] (qcar2_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.710007] (qcar2_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.720848] (qcar2_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.801677] (-) TimerEvent: {}
+[0.902013] (-) TimerEvent: {}
+[1.002376] (-) TimerEvent: {}
+[1.102695] (-) TimerEvent: {}
+[1.202993] (-) TimerEvent: {}
+[1.303315] (-) TimerEvent: {}
+[1.403645] (-) TimerEvent: {}
+[1.504009] (-) TimerEvent: {}
+[1.595431] (qcar2_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter \n'}
+[1.604176] (-) TimerEvent: {}
+[1.676603] (qcar2_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.704266] (-) TimerEvent: {}
+[1.738727] (qcar2_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.749470] (qcar2_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.763350] (qcar2_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.804391] (-) TimerEvent: {}
+[1.836358] (qcar2_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.904487] (-) TimerEvent: {}
+[2.004823] (-) TimerEvent: {}
+[2.105153] (-) TimerEvent: {}
+[2.152623] (qcar2_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.205255] (-) TimerEvent: {}
+[2.305617] (-) TimerEvent: {}
+[2.308019] (qcar2_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.405732] (-) TimerEvent: {}
+[2.506102] (-) TimerEvent: {}
+[2.526591] (qcar2_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.567394] (qcar2_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") \n'}
+[2.572117] (qcar2_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.606250] (-) TimerEvent: {}
+[2.639962] (qcar2_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.640195] (qcar2_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.640258] (qcar2_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.640308] (qcar2_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.673892] (qcar2_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.706395] (-) TimerEvent: {}
+[2.734357] (qcar2_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.773754] (qcar2_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.775945] (qcar2_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.781326] (qcar2_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.806492] (-) TimerEvent: {}
+[2.812089] (qcar2_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.815036] (qcar2_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/isaac_ros-dev/build/qcar2_interfaces\n'}
+[2.820956] (qcar2_interfaces) CommandEnded: {'returncode': 0}
+[2.822029] (qcar2_interfaces) JobProgress: {'identifier': 'qcar2_interfaces', 'progress': 'build'}
+[2.823056] (qcar2_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/isaac_ros-dev/build/qcar2_interfaces', '--', '-j16', '-l16'], 'cwd': '/workspaces/isaac_ros-dev/build/qcar2_interfaces', 'env': OrderedDict([('NPP_VERSION', '11.8.0.86'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('DALI_BUILD', '5838886'), ('CUSOLVER_VERSION', '11.4.1.48'), ('USER_UID', '1000'), ('CUBLAS_VERSION', '11.11.3.6'), ('PKG_CONFIG_PATH', '/workspace/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/workspace/cartographer_ws/install/cartographer/lib/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', 'mohammadsal-IdeaPad-Slim-3-14IRH8'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/rtps_udp_profile.xml'), ('DCGM_VERSION', '2.2.9'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=9.0'), ('CUFFT_VERSION', '10.9.0.58'), ('CUDA_CACHE_DISABLE', '1'), ('NCCL_VERSION', '2.15.1'), ('CUSPARSE_VERSION', '11.7.5.86'), ('ENV', '/etc/shinit_v2'), ('PWD', '/workspaces/isaac_ros-dev/build/qcar2_interfaces'), ('OPENUCX_VERSION', '1.14.0'), ('NSIGHT_SYSTEMS_VERSION', '2022.3.1.43'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,video'), ('POLYGRAPHY_VERSION', '0.38.0'), ('TF_ENABLE_WINOGRAD_NONFUSED', '1'), ('TRT_VERSION', '8.5.0.12'), ('USER_GID', '1000'), ('NVIDIA_PRODUCT_NAME', 'Triton Server'), ('RDMACORE_VERSION', '36.0'), ('HOME', '/home/admin'), ('USERNAME', 'admin'), ('LANG', 'en_US.UTF-8'), ('CUDA_VERSION', '11.8.0.062'), ('CURAND_VERSION', '10.3.0.86'), ('AMENT_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspace/cartographer_ws/install/perception_pcl:/workspace/cartographer_ws/install/pcl_ros:/workspace/cartographer_ws/install/cartographer_rviz:/workspace/cartographer_ws/install/cartographer_ros:/workspace/cartographer_ws/install/pcl_conversions:/workspace/cartographer_ws/install/pcl_msgs:/workspace/cartographer_ws/install/isaac_ros_test:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces:/workspace/cartographer_ws/install/isaac_ros_common:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces:/workspace/cartographer_ws/install/control_msgs:/workspace/cartographer_ws/install/cartographer_ros_msgs:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspace/cartographer_ws/install/perception_pcl:/workspace/cartographer_ws/install/pcl_ros:/workspace/cartographer_ws/install/cartographer_rviz:/workspace/cartographer_ws/install/cartographer_ros:/workspace/cartographer_ws/install/pcl_conversions:/workspace/cartographer_ws/install/pcl_msgs:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces:/workspace/cartographer_ws/install/isaac_ros_common:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces:/workspace/cartographer_ws/install/control_msgs:/workspace/cartographer_ws/install/cartographer_ros_msgs:/workspace/cartographer_ws/install/cartographer:/workspace/cartographer_ws/install/absl:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspace/cartographer_ws/install/isaac_ros_test:/opt/ros/humble'), ('COLCON_PREFIX_PATH', '/workspaces/isaac_ros-dev/install:/workspace/cartographer_ws/install'), ('CUTENSOR_VERSION', '1.6.1.5'), ('TRITON_SERVER_GPU_ENABLED', '1'), ('HPCX_VERSION', '2.12.1a0'), ('PYTHONPATH', '/workspaces/isaac_ros-dev/build/qcar2_autonomy:/workspaces/isaac_ros-dev/install/qcar2_autonomy/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/acc_2026_project:/workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/pcl_msgs/lib/python3.8/site-packages:/workspace/cartographer_ws/build/isaac_ros_test:/workspace/cartographer_ws/install/isaac_ros_test/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/control_msgs/lib/python3.8/site-packages:/workspace/cartographer_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/0_libraries/python'), ('COLCON', '1'), ('TERM', 'xterm'), ('TRITON_SERVER_VERSION', '2.26.0'), ('GDRCOPY_VERSION', '2.3'), ('USER', 'mohammadsal'), ('OPENMPI_VERSION', '4.1.4'), ('NVJPEG_VERSION', '11.9.0.86'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs:'), ('DISPLAY', ':0'), ('SHLVL', '1'), ('BASH_ENV', '/etc/bash.bashrc'), ('TF_AUTOTUNE_THRESHOLD', '2'), ('CUDNN_VERSION', '8.6.0.163'), ('NSIGHT_COMPUTE_VERSION', '2022.3.0.22'), ('DALI_VERSION', '1.17.0'), ('NVIDIA_TRITON_SERVER_VERSION', '22.09'), ('LD_LIBRARY_PATH', '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib:/workspace/cartographer_ws/install/pcl_ros/lib:/workspace/cartographer_ws/install/cartographer_rviz/lib:/workspace/cartographer_ws/install/cartographer_ros/lib:/workspace/cartographer_ws/install/pcl_msgs/lib:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_common/lib:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces/lib:/workspace/cartographer_ws/install/control_msgs/lib:/workspace/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/tritonserver/backends/onnxruntime:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/opt/tritonserver/lib'), ('NVIDIA_BUILD_ID', '44909143'), ('ROS_LOCALHOST_ONLY', '0'), ('OMPI_MCA_coll_hcoll_enable', '0'), ('OPAL_PREFIX', '/opt/hpcx/ompi'), ('CUDA_DRIVER_VERSION', '520.61.03'), ('_CUDA_COMPAT_PATH', '/usr/local/cuda/compat'), ('PATH', '/workspace/cartographer_ws/install/cartographer/bin:/opt/ros/humble/bin:/opt/tritonserver/bin:/usr/local/mpi/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ucx/bin:/opt/nvidia/tao'), ('TRITON_SERVER_USER', 'triton-server'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources'), ('MOFED_VERSION', '5.4-rdmacore36.0'), ('TRTOSS_VERSION', ''), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_ROOT', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('TF_ADJUST_HUE_FUSED', '1'), ('TF_ADJUST_SATURATION_FUSED', '1'), ('SHARP_COLL_ENABLE_CUDA', '0'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('OLDPWD', '/workspaces/isaac_ros-dev/ros2/src/acc_2026_project/acc_2026_project'), ('_', '/usr/bin/env')]), 'shell': False}
+[2.886337] (qcar2_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.906653] (-) TimerEvent: {}
+[2.916745] (qcar2_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.921015] (qcar2_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_qcar2_interfaces\n'}
+[3.006771] (-) TimerEvent: {}
+[3.107235] (-) TimerEvent: {}
+[3.207735] (-) TimerEvent: {}
+[3.308271] (-) TimerEvent: {}
+[3.345294] (qcar2_interfaces) StdoutLine: {'line': b'[  5%] Built target qcar2_interfaces__cpp\n'}
+[3.372836] (qcar2_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.373642] (qcar2_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.374101] (qcar2_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.392042] (qcar2_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/qcar2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/qcar2_interfaces/msg/detail/motor_commands__functions.c.o\x1b[0m\n'}
+[3.398465] (qcar2_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/qcar2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/qcar2_interfaces/msg/detail/boolean_leds__functions.c.o\x1b[0m\n'}
+[3.408377] (-) TimerEvent: {}
+[3.443250] (qcar2_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.445405] (qcar2_interfaces) StdoutLine: {'line': b'creating qcar2_interfaces.egg-info\n'}
+[3.464468] (qcar2_interfaces) StdoutLine: {'line': b'writing qcar2_interfaces.egg-info/PKG-INFO\n'}
+[3.464863] (qcar2_interfaces) StdoutLine: {'line': b'writing dependency_links to qcar2_interfaces.egg-info/dependency_links.txt\n'}
+[3.465150] (qcar2_interfaces) StdoutLine: {'line': b'writing top-level names to qcar2_interfaces.egg-info/top_level.txt\n'}
+[3.465378] (qcar2_interfaces) StdoutLine: {'line': b"writing manifest file 'qcar2_interfaces.egg-info/SOURCES.txt'\n"}
+[3.508539] (-) TimerEvent: {}
+[3.517527] (qcar2_interfaces) StdoutLine: {'line': b"reading manifest file 'qcar2_interfaces.egg-info/SOURCES.txt'\n"}
+[3.518491] (qcar2_interfaces) StdoutLine: {'line': b"writing manifest file 'qcar2_interfaces.egg-info/SOURCES.txt'\n"}
+[3.523332] (qcar2_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libqcar2_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.590031] (qcar2_interfaces) StdoutLine: {'line': b'[ 20%] Built target qcar2_interfaces__rosidl_generator_c\n'}
+[3.608664] (-) TimerEvent: {}
+[3.612043] (qcar2_interfaces) StdoutLine: {'line': b'[ 20%] Built target ament_cmake_python_build_qcar2_interfaces_egg\n'}
+[3.626963] (qcar2_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.634021] (qcar2_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.634579] (qcar2_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.708827] (-) TimerEvent: {}
+[3.809397] (-) TimerEvent: {}
+[3.910137] (-) TimerEvent: {}
+[3.936295] (qcar2_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/qcar2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/qcar2_interfaces/msg/boolean_leds__type_support.cpp.o\x1b[0m\n'}
+[3.941721] (qcar2_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/qcar2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/qcar2_interfaces/msg/motor_commands__type_support.cpp.o\x1b[0m\n'}
+[4.010286] (-) TimerEvent: {}
+[4.016134] (qcar2_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/qcar2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/qcar2_interfaces/msg/detail/dds_fastrtps/motor_commands__type_support.cpp.o\x1b[0m\n'}
+[4.029561] (qcar2_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/qcar2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/qcar2_interfaces/msg/detail/dds_fastrtps/boolean_leds__type_support.cpp.o\x1b[0m\n'}
+[4.074258] (qcar2_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/qcar2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/qcar2_interfaces/msg/detail/boolean_leds__type_support.cpp.o\x1b[0m\n'}
+[4.074660] (qcar2_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/qcar2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/qcar2_interfaces/msg/detail/motor_commands__type_support.cpp.o\x1b[0m\n'}
+[4.110409] (-) TimerEvent: {}
+[4.210848] (-) TimerEvent: {}
+[4.311316] (-) TimerEvent: {}
+[4.379223] (qcar2_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/qcar2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qcar2_interfaces/msg/detail/boolean_leds__type_support_c.cpp.o\x1b[0m\n'}
+[4.389212] (qcar2_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/qcar2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/qcar2_interfaces/msg/boolean_leds__type_support.cpp.o\x1b[0m\n'}
+[4.398572] (qcar2_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/qcar2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qcar2_interfaces/msg/detail/motor_commands__type_support_c.cpp.o\x1b[0m\n'}
+[4.411725] (-) TimerEvent: {}
+[4.425073] (qcar2_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/qcar2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/qcar2_interfaces/msg/motor_commands__type_support.cpp.o\x1b[0m\n'}
+[4.512431] (-) TimerEvent: {}
+[4.595840] (qcar2_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libqcar2_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.617155] (-) TimerEvent: {}
+[4.619853] (qcar2_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/qcar2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/qcar2_interfaces/msg/detail/boolean_leds__type_support.c.o\x1b[0m\n'}
+[4.718582] (-) TimerEvent: {}
+[4.766841] (qcar2_interfaces) StdoutLine: {'line': b'[ 58%] Built target qcar2_interfaces__rosidl_typesupport_c\n'}
+[4.797581] (qcar2_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/qcar2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/qcar2_interfaces/msg/detail/motor_commands__type_support.c.o\x1b[0m\n'}
+[4.818711] (-) TimerEvent: {}
+[4.919189] (-) TimerEvent: {}
+[4.936592] (qcar2_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libqcar2_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.990532] (qcar2_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libqcar2_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.003643] (qcar2_interfaces) StdoutLine: {'line': b'[ 66%] Built target qcar2_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.019362] (-) TimerEvent: {}
+[5.091184] (qcar2_interfaces) StdoutLine: {'line': b'[ 66%] Built target qcar2_interfaces__rosidl_typesupport_cpp\n'}
+[5.119497] (-) TimerEvent: {}
+[5.220025] (-) TimerEvent: {}
+[5.320515] (-) TimerEvent: {}
+[5.337268] (qcar2_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libqcar2_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.420683] (-) TimerEvent: {}
+[5.448864] (qcar2_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libqcar2_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.472855] (qcar2_interfaces) StdoutLine: {'line': b'[ 71%] Built target qcar2_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.506731] (qcar2_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libqcar2_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.520838] (-) TimerEvent: {}
+[5.588766] (qcar2_interfaces) StdoutLine: {'line': b'[ 74%] Built target qcar2_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.620997] (-) TimerEvent: {}
+[5.643646] (qcar2_interfaces) StdoutLine: {'line': b'[ 74%] Built target qcar2_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.695697] (qcar2_interfaces) StdoutLine: {'line': b'[ 74%] Built target qcar2_interfaces\n'}
+[5.721153] (-) TimerEvent: {}
+[5.772328] (qcar2_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.821265] (-) TimerEvent: {}
+[5.921612] (-) TimerEvent: {}
+[6.021996] (-) TimerEvent: {}
+[6.122367] (-) TimerEvent: {}
+[6.222847] (-) TimerEvent: {}
+[6.323362] (-) TimerEvent: {}
+[6.348539] (qcar2_interfaces) StdoutLine: {'line': b'[ 76%] Built target qcar2_interfaces__py\n'}
+[6.402423] (qcar2_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/qcar2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/qcar2_interfaces/msg/_motor_commands_s.c.o\x1b[0m\n'}
+[6.406645] (qcar2_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/qcar2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/qcar2_interfaces/msg/_boolean_leds_s.c.o\x1b[0m\n'}
+[6.423496] (-) TimerEvent: {}
+[6.523908] (-) TimerEvent: {}
+[6.573949] (qcar2_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/qcar2_interfaces/libqcar2_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[6.624072] (-) TimerEvent: {}
+[6.633507] (qcar2_interfaces) StdoutLine: {'line': b'[ 84%] Built target qcar2_interfaces__rosidl_generator_py\n'}
+[6.702135] (qcar2_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/qcar2_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/qcar2_interfaces/_qcar2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.702488] (qcar2_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/qcar2_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/qcar2_interfaces/_qcar2_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.707825] (qcar2_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/qcar2_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/qcar2_interfaces/_qcar2_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.724234] (-) TimerEvent: {}
+[6.824799] (-) TimerEvent: {}
+[6.836683] (qcar2_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/qcar2_interfaces/qcar2_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.838137] (qcar2_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/qcar2_interfaces/qcar2_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.849532] (qcar2_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/qcar2_interfaces/qcar2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.896135] (qcar2_interfaces) StdoutLine: {'line': b'[100%] Built target qcar2_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[6.897172] (qcar2_interfaces) StdoutLine: {'line': b'[100%] Built target qcar2_interfaces__rosidl_typesupport_c__pyext\n'}
+[6.914906] (qcar2_interfaces) StdoutLine: {'line': b'[100%] Built target qcar2_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.925124] (qcar2_interfaces) CommandEnded: {'returncode': 0}
+[6.928456] (-) TimerEvent: {}
+[7.029162] (-) TimerEvent: {}
+[7.129566] (-) TimerEvent: {}
+[7.230046] (-) TimerEvent: {}
+[7.330426] (-) TimerEvent: {}
+[7.430973] (-) TimerEvent: {}
+[7.531473] (-) TimerEvent: {}
+[7.632095] (-) TimerEvent: {}
+[7.733008] (-) TimerEvent: {}
+[7.833720] (-) TimerEvent: {}
+[7.934169] (-) TimerEvent: {}
+[8.034647] (-) TimerEvent: {}
+[8.135060] (-) TimerEvent: {}
+[8.235431] (-) TimerEvent: {}
+[8.335908] (-) TimerEvent: {}
+[8.436430] (-) TimerEvent: {}
+[8.458334] (qcar2_interfaces) JobProgress: {'identifier': 'qcar2_interfaces', 'progress': 'install'}
+[8.472665] (qcar2_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/isaac_ros-dev/build/qcar2_interfaces'], 'cwd': '/workspaces/isaac_ros-dev/build/qcar2_interfaces', 'env': OrderedDict([('NPP_VERSION', '11.8.0.86'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('DALI_BUILD', '5838886'), ('CUSOLVER_VERSION', '11.4.1.48'), ('USER_UID', '1000'), ('CUBLAS_VERSION', '11.11.3.6'), ('PKG_CONFIG_PATH', '/workspace/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/workspace/cartographer_ws/install/cartographer/lib/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', 'mohammadsal-IdeaPad-Slim-3-14IRH8'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/rtps_udp_profile.xml'), ('DCGM_VERSION', '2.2.9'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=9.0'), ('CUFFT_VERSION', '10.9.0.58'), ('CUDA_CACHE_DISABLE', '1'), ('NCCL_VERSION', '2.15.1'), ('CUSPARSE_VERSION', '11.7.5.86'), ('ENV', '/etc/shinit_v2'), ('PWD', '/workspaces/isaac_ros-dev/build/qcar2_interfaces'), ('OPENUCX_VERSION', '1.14.0'), ('NSIGHT_SYSTEMS_VERSION', '2022.3.1.43'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,video'), ('POLYGRAPHY_VERSION', '0.38.0'), ('TF_ENABLE_WINOGRAD_NONFUSED', '1'), ('TRT_VERSION', '8.5.0.12'), ('USER_GID', '1000'), ('NVIDIA_PRODUCT_NAME', 'Triton Server'), ('RDMACORE_VERSION', '36.0'), ('HOME', '/home/admin'), ('USERNAME', 'admin'), ('LANG', 'en_US.UTF-8'), ('CUDA_VERSION', '11.8.0.062'), ('CURAND_VERSION', '10.3.0.86'), ('AMENT_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspace/cartographer_ws/install/perception_pcl:/workspace/cartographer_ws/install/pcl_ros:/workspace/cartographer_ws/install/cartographer_rviz:/workspace/cartographer_ws/install/cartographer_ros:/workspace/cartographer_ws/install/pcl_conversions:/workspace/cartographer_ws/install/pcl_msgs:/workspace/cartographer_ws/install/isaac_ros_test:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces:/workspace/cartographer_ws/install/isaac_ros_common:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces:/workspace/cartographer_ws/install/control_msgs:/workspace/cartographer_ws/install/cartographer_ros_msgs:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspace/cartographer_ws/install/perception_pcl:/workspace/cartographer_ws/install/pcl_ros:/workspace/cartographer_ws/install/cartographer_rviz:/workspace/cartographer_ws/install/cartographer_ros:/workspace/cartographer_ws/install/pcl_conversions:/workspace/cartographer_ws/install/pcl_msgs:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces:/workspace/cartographer_ws/install/isaac_ros_common:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces:/workspace/cartographer_ws/install/control_msgs:/workspace/cartographer_ws/install/cartographer_ros_msgs:/workspace/cartographer_ws/install/cartographer:/workspace/cartographer_ws/install/absl:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspace/cartographer_ws/install/isaac_ros_test:/opt/ros/humble'), ('COLCON_PREFIX_PATH', '/workspaces/isaac_ros-dev/install:/workspace/cartographer_ws/install'), ('CUTENSOR_VERSION', '1.6.1.5'), ('TRITON_SERVER_GPU_ENABLED', '1'), ('HPCX_VERSION', '2.12.1a0'), ('PYTHONPATH', '/workspaces/isaac_ros-dev/build/qcar2_autonomy:/workspaces/isaac_ros-dev/install/qcar2_autonomy/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/acc_2026_project:/workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/pcl_msgs/lib/python3.8/site-packages:/workspace/cartographer_ws/build/isaac_ros_test:/workspace/cartographer_ws/install/isaac_ros_test/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/control_msgs/lib/python3.8/site-packages:/workspace/cartographer_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/0_libraries/python'), ('COLCON', '1'), ('TERM', 'xterm'), ('TRITON_SERVER_VERSION', '2.26.0'), ('GDRCOPY_VERSION', '2.3'), ('USER', 'mohammadsal'), ('OPENMPI_VERSION', '4.1.4'), ('NVJPEG_VERSION', '11.9.0.86'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs:'), ('DISPLAY', ':0'), ('SHLVL', '1'), ('BASH_ENV', '/etc/bash.bashrc'), ('TF_AUTOTUNE_THRESHOLD', '2'), ('CUDNN_VERSION', '8.6.0.163'), ('NSIGHT_COMPUTE_VERSION', '2022.3.0.22'), ('DALI_VERSION', '1.17.0'), ('NVIDIA_TRITON_SERVER_VERSION', '22.09'), ('LD_LIBRARY_PATH', '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib:/workspace/cartographer_ws/install/pcl_ros/lib:/workspace/cartographer_ws/install/cartographer_rviz/lib:/workspace/cartographer_ws/install/cartographer_ros/lib:/workspace/cartographer_ws/install/pcl_msgs/lib:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_common/lib:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces/lib:/workspace/cartographer_ws/install/control_msgs/lib:/workspace/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/tritonserver/backends/onnxruntime:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/opt/tritonserver/lib'), ('NVIDIA_BUILD_ID', '44909143'), ('ROS_LOCALHOST_ONLY', '0'), ('OMPI_MCA_coll_hcoll_enable', '0'), ('OPAL_PREFIX', '/opt/hpcx/ompi'), ('CUDA_DRIVER_VERSION', '520.61.03'), ('_CUDA_COMPAT_PATH', '/usr/local/cuda/compat'), ('PATH', '/workspace/cartographer_ws/install/cartographer/bin:/opt/ros/humble/bin:/opt/tritonserver/bin:/usr/local/mpi/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ucx/bin:/opt/nvidia/tao'), ('TRITON_SERVER_USER', 'triton-server'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources'), ('MOFED_VERSION', '5.4-rdmacore36.0'), ('TRTOSS_VERSION', ''), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_ROOT', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('TF_ADJUST_HUE_FUSED', '1'), ('TF_ADJUST_SATURATION_FUSED', '1'), ('SHARP_COLL_ENABLE_CUDA', '0'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('OLDPWD', '/workspaces/isaac_ros-dev/ros2/src/acc_2026_project/acc_2026_project'), ('_', '/usr/bin/env')]), 'shell': False}
+[8.489947] (qcar2_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.490896] (qcar2_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.494572] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/ament_index/resource_index/rosidl_interfaces/qcar2_interfaces\n'}
+[8.504641] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/boolean_leds.h\n'}
+[8.516116] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/boolean_leds__functions.h\n'}
+[8.527335] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/boolean_leds__struct.h\n'}
+[8.535020] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/boolean_leds__type_support.h\n'}
+[8.536540] (-) TimerEvent: {}
+[8.540506] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/motor_commands__functions.h\n'}
+[8.545931] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/motor_commands__struct.h\n'}
+[8.552539] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/motor_commands__type_support.h\n'}
+[8.563128] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/motor_commands.h\n'}
+[8.568439] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.574836] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/environment/library_path.sh\n'}
+[8.579921] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/environment/library_path.dsv\n'}
+[8.584239] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/boolean_leds__rosidl_typesupport_fastrtps_c.h\n'}
+[8.588488] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/motor_commands__rosidl_typesupport_fastrtps_c.h\n'}
+[8.593988] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.601636] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/boolean_leds__rosidl_typesupport_introspection_c.h\n'}
+[8.609046] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/motor_commands__rosidl_typesupport_introspection_c.h\n'}
+[8.615823] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.620552] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/boolean_leds.hpp\n'}
+[8.625150] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/boolean_leds__builder.hpp\n'}
+[8.630260] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/boolean_leds__struct.hpp\n'}
+[8.636393] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/boolean_leds__traits.hpp\n'}
+[8.636766] (-) TimerEvent: {}
+[8.644665] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/motor_commands__builder.hpp\n'}
+[8.651091] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/motor_commands__struct.hpp\n'}
+[8.657335] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/motor_commands__traits.hpp\n'}
+[8.661551] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/motor_commands.hpp\n'}
+[8.668055] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/boolean_leds__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.673181] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/motor_commands__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.677622] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.683023] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/boolean_leds__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.688526] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/include/qcar2_interfaces/qcar2_interfaces/msg/detail/motor_commands__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.693612] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/environment/pythonpath.sh\n'}
+[8.700896] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/environment/pythonpath.dsv\n'}
+[8.712549] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces-0.0.0-py3.8.egg-info/PKG-INFO\n'}
+[8.717990] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces-0.0.0-py3.8.egg-info/SOURCES.txt\n'}
+[8.725431] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces-0.0.0-py3.8.egg-info/dependency_links.txt\n'}
+[8.730349] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces-0.0.0-py3.8.egg-info/top_level.txt\n'}
+[8.734969] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/__init__.py\n'}
+[8.736869] (-) TimerEvent: {}
+[8.740217] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/_qcar2_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[8.744583] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/_qcar2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.749281] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/_qcar2_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.756167] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/libqcar2_interfaces__rosidl_generator_py.so\n'}
+[8.761116] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/msg/__init__.py\n'}
+[8.765795] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/msg/_boolean_leds.py\n'}
+[8.770001] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/msg/_boolean_leds_s.c\n'}
+[8.777451] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/msg/_motor_commands.py\n'}
+[8.783150] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/msg/_motor_commands_s.c\n'}
+[8.788730] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/qcar2_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.794785] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/qcar2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.799290] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/qcar2_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.806191] (qcar2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/qcar2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.806480] (qcar2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/qcar2_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.806911] (qcar2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/qcar2_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.807116] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/msg/MotorCommands.idl\n'}
+[8.811970] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/msg/BooleanLeds.idl\n'}
+[8.817337] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/msg/MotorCommands.msg\n'}
+[8.823367] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/msg/BooleanLeds.msg\n'}
+[8.829511] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/ament_index/resource_index/package_run_dependencies/qcar2_interfaces\n'}
+[8.837080] (-) TimerEvent: {}
+[8.844463] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/ament_index/resource_index/parent_prefix_path/qcar2_interfaces\n'}
+[8.854016] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/environment/ament_prefix_path.sh\n'}
+[8.860147] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/environment/ament_prefix_path.dsv\n'}
+[8.865974] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/environment/path.sh\n'}
+[8.876686] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/environment/path.dsv\n'}
+[8.882480] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/local_setup.bash\n'}
+[8.886488] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/local_setup.sh\n'}
+[8.891896] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/local_setup.zsh\n'}
+[8.897269] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/local_setup.dsv\n'}
+[8.905287] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/package.dsv\n'}
+[8.915175] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/ament_index/resource_index/packages/qcar2_interfaces\n'}
+[8.921299] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.929965] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.937265] (-) TimerEvent: {}
+[8.940806] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.949522] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.958337] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.968386] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.977782] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.983479] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/qcar2_interfacesConfig.cmake\n'}
+[8.989959] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/qcar2_interfacesConfig-version.cmake\n'}
+[8.997219] (qcar2_interfaces) StdoutLine: {'line': b'-- Symlinking: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/package.xml\n'}
+[9.008353] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_generator_c.so\n'}
+[9.008634] (qcar2_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_generator_c.so" to ""\n'}
+[9.008755] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[9.009068] (qcar2_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.009295] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[9.009599] (qcar2_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.009917] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_c.so\n'}
+[9.010163] (qcar2_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[9.010372] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.011155] (qcar2_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.011451] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[9.012081] (qcar2_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.012630] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_cpp.so\n'}
+[9.012914] (qcar2_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[9.037367] (-) TimerEvent: {}
+[9.055299] (qcar2_interfaces) StdoutLine: {'line': b"Listing '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces'...\n"}
+[9.055468] (qcar2_interfaces) StdoutLine: {'line': b"Compiling '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/__init__.py'...\n"}
+[9.055525] (qcar2_interfaces) StdoutLine: {'line': b"Listing '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/msg'...\n"}
+[9.055567] (qcar2_interfaces) StdoutLine: {'line': b"Compiling '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/msg/__init__.py'...\n"}
+[9.055613] (qcar2_interfaces) StdoutLine: {'line': b"Compiling '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/msg/_boolean_leds.py'...\n"}
+[9.055655] (qcar2_interfaces) StdoutLine: {'line': b"Compiling '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages/qcar2_interfaces/msg/_motor_commands.py'...\n"}
+[9.059718] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_generator_py.so\n'}
+[9.060071] (qcar2_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/libqcar2_interfaces__rosidl_generator_py.so" to ""\n'}
+[9.060151] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/export_qcar2_interfaces__rosidl_generator_cExport.cmake\n'}
+[9.060263] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/export_qcar2_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.060388] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/export_qcar2_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.060499] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/export_qcar2_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.060612] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/qcar2_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.060730] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/qcar2_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.060859] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/qcar2_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[9.061033] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/qcar2_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.061262] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/export_qcar2_interfaces__rosidl_generator_cppExport.cmake\n'}
+[9.061357] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/export_qcar2_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.061465] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/export_qcar2_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.061547] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/qcar2_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.061707] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/qcar2_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.061839] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/qcar2_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[9.061946] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/qcar2_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.062058] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/export_qcar2_interfaces__rosidl_generator_pyExport.cmake\n'}
+[9.062200] (qcar2_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake/export_qcar2_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.063929] (qcar2_interfaces) CommandEnded: {'returncode': 0}
+[9.137680] (-) TimerEvent: {}
+[9.238447] (-) TimerEvent: {}
+[9.339797] (-) TimerEvent: {}
+[9.440167] (-) TimerEvent: {}
+[9.540680] (-) TimerEvent: {}
+[9.641463] (-) TimerEvent: {}
+[9.741858] (-) TimerEvent: {}
+[9.844247] (-) TimerEvent: {}
+[9.944611] (-) TimerEvent: {}
+[10.044993] (-) TimerEvent: {}
+[10.145419] (-) TimerEvent: {}
+[10.245906] (-) TimerEvent: {}
+[10.346788] (-) TimerEvent: {}
+[10.435930] (qcar2_interfaces) JobEnded: {'identifier': 'qcar2_interfaces', 'rc': 0}
+[10.437083] (acc_2026_project) JobStarted: {'identifier': 'acc_2026_project'}
+[10.446932] (-) TimerEvent: {}
+[10.537891] (qcar2_autonomy) JobStarted: {'identifier': 'qcar2_autonomy'}
+[10.547381] (-) TimerEvent: {}
+[10.616022] (qcar2_nodes) JobStarted: {'identifier': 'qcar2_nodes'}
+[10.647503] (-) TimerEvent: {}
+[10.748104] (-) TimerEvent: {}
+[10.848691] (-) TimerEvent: {}
+[10.949049] (-) TimerEvent: {}
+[11.049442] (-) TimerEvent: {}
+[11.149819] (-) TimerEvent: {}
+[11.250309] (-) TimerEvent: {}
+[11.350746] (-) TimerEvent: {}
+[11.451135] (-) TimerEvent: {}
+[11.551539] (-) TimerEvent: {}
+[11.652555] (-) TimerEvent: {}
+[11.737290] (qcar2_nodes) JobProgress: {'identifier': 'qcar2_nodes', 'progress': 'cmake'}
+[11.737625] (qcar2_nodes) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/isaac_ros-dev/ros2/src/qcar2_nodes', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/qcar2_nodes'], 'cwd': '/workspaces/isaac_ros-dev/build/qcar2_nodes', 'env': OrderedDict([('NPP_VERSION', '11.8.0.86'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('DALI_BUILD', '5838886'), ('CUSOLVER_VERSION', '11.4.1.48'), ('USER_UID', '1000'), ('CUBLAS_VERSION', '11.11.3.6'), ('PKG_CONFIG_PATH', '/workspace/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/workspace/cartographer_ws/install/cartographer/lib/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', 'mohammadsal-IdeaPad-Slim-3-14IRH8'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/rtps_udp_profile.xml'), ('DCGM_VERSION', '2.2.9'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=9.0'), ('CUFFT_VERSION', '10.9.0.58'), ('CUDA_CACHE_DISABLE', '1'), ('NCCL_VERSION', '2.15.1'), ('CUSPARSE_VERSION', '11.7.5.86'), ('ENV', '/etc/shinit_v2'), ('PWD', '/workspaces/isaac_ros-dev/build/qcar2_nodes'), ('OPENUCX_VERSION', '1.14.0'), ('NSIGHT_SYSTEMS_VERSION', '2022.3.1.43'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,video'), ('POLYGRAPHY_VERSION', '0.38.0'), ('TF_ENABLE_WINOGRAD_NONFUSED', '1'), ('TRT_VERSION', '8.5.0.12'), ('USER_GID', '1000'), ('NVIDIA_PRODUCT_NAME', 'Triton Server'), ('RDMACORE_VERSION', '36.0'), ('HOME', '/home/admin'), ('USERNAME', 'admin'), ('LANG', 'en_US.UTF-8'), ('CUDA_VERSION', '11.8.0.062'), ('CURAND_VERSION', '10.3.0.86'), ('AMENT_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspace/cartographer_ws/install/perception_pcl:/workspace/cartographer_ws/install/pcl_ros:/workspace/cartographer_ws/install/cartographer_rviz:/workspace/cartographer_ws/install/cartographer_ros:/workspace/cartographer_ws/install/pcl_conversions:/workspace/cartographer_ws/install/pcl_msgs:/workspace/cartographer_ws/install/isaac_ros_test:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces:/workspace/cartographer_ws/install/isaac_ros_common:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces:/workspace/cartographer_ws/install/control_msgs:/workspace/cartographer_ws/install/cartographer_ros_msgs:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspace/cartographer_ws/install/perception_pcl:/workspace/cartographer_ws/install/pcl_ros:/workspace/cartographer_ws/install/cartographer_rviz:/workspace/cartographer_ws/install/cartographer_ros:/workspace/cartographer_ws/install/pcl_conversions:/workspace/cartographer_ws/install/pcl_msgs:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces:/workspace/cartographer_ws/install/isaac_ros_common:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces:/workspace/cartographer_ws/install/control_msgs:/workspace/cartographer_ws/install/cartographer_ros_msgs:/workspace/cartographer_ws/install/cartographer:/workspace/cartographer_ws/install/absl:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspace/cartographer_ws/install/isaac_ros_test:/opt/ros/humble'), ('COLCON_PREFIX_PATH', '/workspaces/isaac_ros-dev/install:/workspace/cartographer_ws/install'), ('CUTENSOR_VERSION', '1.6.1.5'), ('TRITON_SERVER_GPU_ENABLED', '1'), ('HPCX_VERSION', '2.12.1a0'), ('PYTHONPATH', '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/qcar2_autonomy:/workspaces/isaac_ros-dev/install/qcar2_autonomy/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/acc_2026_project:/workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages:/workspace/cartographer_ws/install/pcl_msgs/lib/python3.8/site-packages:/workspace/cartographer_ws/build/isaac_ros_test:/workspace/cartographer_ws/install/isaac_ros_test/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/control_msgs/lib/python3.8/site-packages:/workspace/cartographer_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/0_libraries/python'), ('COLCON', '1'), ('TERM', 'xterm'), ('TRITON_SERVER_VERSION', '2.26.0'), ('GDRCOPY_VERSION', '2.3'), ('USER', 'mohammadsal'), ('OPENMPI_VERSION', '4.1.4'), ('NVJPEG_VERSION', '11.9.0.86'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs:'), ('DISPLAY', ':0'), ('SHLVL', '1'), ('BASH_ENV', '/etc/bash.bashrc'), ('TF_AUTOTUNE_THRESHOLD', '2'), ('CUDNN_VERSION', '8.6.0.163'), ('NSIGHT_COMPUTE_VERSION', '2022.3.0.22'), ('DALI_VERSION', '1.17.0'), ('NVIDIA_TRITON_SERVER_VERSION', '22.09'), ('LD_LIBRARY_PATH', '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib:/workspace/cartographer_ws/install/pcl_ros/lib:/workspace/cartographer_ws/install/cartographer_rviz/lib:/workspace/cartographer_ws/install/cartographer_ros/lib:/workspace/cartographer_ws/install/pcl_msgs/lib:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_common/lib:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces/lib:/workspace/cartographer_ws/install/control_msgs/lib:/workspace/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/tritonserver/backends/onnxruntime:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/opt/tritonserver/lib'), ('NVIDIA_BUILD_ID', '44909143'), ('ROS_LOCALHOST_ONLY', '0'), ('OMPI_MCA_coll_hcoll_enable', '0'), ('OPAL_PREFIX', '/opt/hpcx/ompi'), ('CUDA_DRIVER_VERSION', '520.61.03'), ('_CUDA_COMPAT_PATH', '/usr/local/cuda/compat'), ('PATH', '/workspace/cartographer_ws/install/cartographer/bin:/opt/ros/humble/bin:/opt/tritonserver/bin:/usr/local/mpi/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ucx/bin:/opt/nvidia/tao'), ('TRITON_SERVER_USER', 'triton-server'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources'), ('MOFED_VERSION', '5.4-rdmacore36.0'), ('TRTOSS_VERSION', ''), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_ROOT', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('TF_ADJUST_HUE_FUSED', '1'), ('TF_ADJUST_SATURATION_FUSED', '1'), ('SHARP_COLL_ENABLE_CUDA', '0'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('OLDPWD', '/workspaces/isaac_ros-dev/ros2/src/acc_2026_project/acc_2026_project'), ('_', '/usr/bin/env')]), 'shell': False}
+[11.753722] (-) TimerEvent: {}
+[11.849540] (qcar2_nodes) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[11.853779] (-) TimerEvent: {}
+[11.929629] (qcar2_nodes) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[11.939726] (qcar2_nodes) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[11.954132] (-) TimerEvent: {}
+[12.053503] (qcar2_nodes) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[12.054198] (-) TimerEvent: {}
+[12.065586] (qcar2_nodes) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[12.065923] (qcar2_nodes) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[12.066529] (qcar2_nodes) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[12.071136] (qcar2_nodes) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[12.154325] (-) TimerEvent: {}
+[12.219561] (qcar2_nodes) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[12.230908] (qcar2_nodes) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[12.231326] (qcar2_nodes) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[12.231932] (qcar2_nodes) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[12.239255] (qcar2_nodes) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[12.254440] (-) TimerEvent: {}
+[12.354819] (-) TimerEvent: {}
+[12.455278] (-) TimerEvent: {}
+[12.555736] (-) TimerEvent: {}
+[12.656144] (-) TimerEvent: {}
+[12.756605] (-) TimerEvent: {}
+[12.777827] (acc_2026_project) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/workspaces/isaac_ros-dev/build/acc_2026_project/build', '--no-deps', 'install_data'], 'cwd': '/workspaces/isaac_ros-dev/build/acc_2026_project', 'env': {'NPP_VERSION': '11.8.0.86', 'SHELL': '/bin/bash', 'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'DALI_BUILD': '5838886', 'CUSOLVER_VERSION': '11.4.1.48', 'USER_UID': '1000', 'CUBLAS_VERSION': '11.11.3.6', 'PKG_CONFIG_PATH': '/workspace/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/workspace/cartographer_ws/install/cartographer/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': 'mohammadsal-IdeaPad-Slim-3-14IRH8', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/usr/local/share/middleware_profiles/rtps_udp_profile.xml', 'DCGM_VERSION': '2.2.9', 'NVIDIA_REQUIRE_CUDA': 'cuda>=9.0', 'CUFFT_VERSION': '10.9.0.58', 'CUDA_CACHE_DISABLE': '1', 'NCCL_VERSION': '2.15.1', 'CUSPARSE_VERSION': '11.7.5.86', 'ENV': '/etc/shinit_v2', 'PWD': '/workspaces/isaac_ros-dev/build/acc_2026_project', 'OPENUCX_VERSION': '1.14.0', 'NSIGHT_SYSTEMS_VERSION': '2022.3.1.43', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility,video', 'POLYGRAPHY_VERSION': '0.38.0', 'TF_ENABLE_WINOGRAD_NONFUSED': '1', 'TRT_VERSION': '8.5.0.12', 'USER_GID': '1000', 'NVIDIA_PRODUCT_NAME': 'Triton Server', 'RDMACORE_VERSION': '36.0', 'HOME': '/home/admin', 'USERNAME': 'admin', 'LANG': 'en_US.UTF-8', 'CUDA_VERSION': '11.8.0.062', 'CURAND_VERSION': '10.3.0.86', 'AMENT_PREFIX_PATH': '/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspace/cartographer_ws/install/perception_pcl:/workspace/cartographer_ws/install/pcl_ros:/workspace/cartographer_ws/install/cartographer_rviz:/workspace/cartographer_ws/install/cartographer_ros:/workspace/cartographer_ws/install/pcl_conversions:/workspace/cartographer_ws/install/pcl_msgs:/workspace/cartographer_ws/install/isaac_ros_test:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces:/workspace/cartographer_ws/install/isaac_ros_common:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces:/workspace/cartographer_ws/install/control_msgs:/workspace/cartographer_ws/install/cartographer_ros_msgs:/opt/ros/humble', 'CMAKE_PREFIX_PATH': '/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspace/cartographer_ws/install/perception_pcl:/workspace/cartographer_ws/install/pcl_ros:/workspace/cartographer_ws/install/cartographer_rviz:/workspace/cartographer_ws/install/cartographer_ros:/workspace/cartographer_ws/install/pcl_conversions:/workspace/cartographer_ws/install/pcl_msgs:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces:/workspace/cartographer_ws/install/isaac_ros_common:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces:/workspace/cartographer_ws/install/control_msgs:/workspace/cartographer_ws/install/cartographer_ros_msgs:/workspace/cartographer_ws/install/cartographer:/workspace/cartographer_ws/install/absl', 'COLCON_PREFIX_PATH': '/workspaces/isaac_ros-dev/install:/workspace/cartographer_ws/install', 'CUTENSOR_VERSION': '1.6.1.5', 'TRITON_SERVER_GPU_ENABLED': '1', 'HPCX_VERSION': '2.12.1a0', 'PYTHONPATH': '/workspaces/isaac_ros-dev/build/acc_2026_project/prefix_override:/workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/qcar2_autonomy:/workspaces/isaac_ros-dev/install/qcar2_autonomy/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/acc_2026_project:/workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages:/workspace/cartographer_ws/install/pcl_msgs/lib/python3.8/site-packages:/workspace/cartographer_ws/build/isaac_ros_test:/workspace/cartographer_ws/install/isaac_ros_test/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/control_msgs/lib/python3.8/site-packages:/workspace/cartographer_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/0_libraries/python', 'COLCON': '1', 'TERM': 'xterm', 'TRITON_SERVER_VERSION': '2.26.0', 'GDRCOPY_VERSION': '2.3', 'USER': 'mohammadsal', 'OPENMPI_VERSION': '4.1.4', 'NVJPEG_VERSION': '11.9.0.86', 'LIBRARY_PATH': '/usr/local/cuda/lib64/stubs:', 'DISPLAY': ':0', 'SHLVL': '1', 'BASH_ENV': '/etc/bash.bashrc', 'TF_AUTOTUNE_THRESHOLD': '2', 'CUDNN_VERSION': '8.6.0.163', 'NSIGHT_COMPUTE_VERSION': '2022.3.0.22', 'DALI_VERSION': '1.17.0', 'NVIDIA_TRITON_SERVER_VERSION': '22.09', 'LD_LIBRARY_PATH': '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib:/workspace/cartographer_ws/install/pcl_ros/lib:/workspace/cartographer_ws/install/cartographer_rviz/lib:/workspace/cartographer_ws/install/cartographer_ros/lib:/workspace/cartographer_ws/install/pcl_msgs/lib:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_common/lib:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces/lib:/workspace/cartographer_ws/install/control_msgs/lib:/workspace/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/tritonserver/backends/onnxruntime:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/opt/tritonserver/lib', 'NVIDIA_BUILD_ID': '44909143', 'ROS_LOCALHOST_ONLY': '0', 'OMPI_MCA_coll_hcoll_enable': '0', 'OPAL_PREFIX': '/opt/hpcx/ompi', 'CUDA_DRIVER_VERSION': '520.61.03', '_CUDA_COMPAT_PATH': '/usr/local/cuda/compat', 'PATH': '/workspace/cartographer_ws/install/cartographer/bin:/opt/ros/humble/bin:/opt/tritonserver/bin:/usr/local/mpi/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ucx/bin:/opt/nvidia/tao', 'TRITON_SERVER_USER': 'triton-server', 'PYTHONWARNINGS': 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources', 'MOFED_VERSION': '5.4-rdmacore36.0', 'TRTOSS_VERSION': '', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_ROOT': '/opt/ros/humble', 'ROS_DISTRO': 'humble', 'TF_ADJUST_HUE_FUSED': '1', 'TF_ADJUST_SATURATION_FUSED': '1', 'SHARP_COLL_ENABLE_CUDA': '0', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'OLDPWD': '/workspaces/isaac_ros-dev/ros2/src/acc_2026_project/acc_2026_project', '_': '/usr/bin/env'}, 'shell': False}
+[12.798285] (qcar2_autonomy) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/workspaces/isaac_ros-dev/build/qcar2_autonomy/build', '--no-deps', 'install_data'], 'cwd': '/workspaces/isaac_ros-dev/build/qcar2_autonomy', 'env': {'NPP_VERSION': '11.8.0.86', 'SHELL': '/bin/bash', 'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'DALI_BUILD': '5838886', 'CUSOLVER_VERSION': '11.4.1.48', 'USER_UID': '1000', 'CUBLAS_VERSION': '11.11.3.6', 'PKG_CONFIG_PATH': '/workspace/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/workspace/cartographer_ws/install/cartographer/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': 'mohammadsal-IdeaPad-Slim-3-14IRH8', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/usr/local/share/middleware_profiles/rtps_udp_profile.xml', 'DCGM_VERSION': '2.2.9', 'NVIDIA_REQUIRE_CUDA': 'cuda>=9.0', 'CUFFT_VERSION': '10.9.0.58', 'CUDA_CACHE_DISABLE': '1', 'NCCL_VERSION': '2.15.1', 'CUSPARSE_VERSION': '11.7.5.86', 'ENV': '/etc/shinit_v2', 'PWD': '/workspaces/isaac_ros-dev/build/qcar2_autonomy', 'OPENUCX_VERSION': '1.14.0', 'NSIGHT_SYSTEMS_VERSION': '2022.3.1.43', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility,video', 'POLYGRAPHY_VERSION': '0.38.0', 'TF_ENABLE_WINOGRAD_NONFUSED': '1', 'TRT_VERSION': '8.5.0.12', 'USER_GID': '1000', 'NVIDIA_PRODUCT_NAME': 'Triton Server', 'RDMACORE_VERSION': '36.0', 'HOME': '/home/admin', 'USERNAME': 'admin', 'LANG': 'en_US.UTF-8', 'CUDA_VERSION': '11.8.0.062', 'CURAND_VERSION': '10.3.0.86', 'AMENT_PREFIX_PATH': '/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspace/cartographer_ws/install/perception_pcl:/workspace/cartographer_ws/install/pcl_ros:/workspace/cartographer_ws/install/cartographer_rviz:/workspace/cartographer_ws/install/cartographer_ros:/workspace/cartographer_ws/install/pcl_conversions:/workspace/cartographer_ws/install/pcl_msgs:/workspace/cartographer_ws/install/isaac_ros_test:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces:/workspace/cartographer_ws/install/isaac_ros_common:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces:/workspace/cartographer_ws/install/control_msgs:/workspace/cartographer_ws/install/cartographer_ros_msgs:/opt/ros/humble', 'CMAKE_PREFIX_PATH': '/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspace/cartographer_ws/install/perception_pcl:/workspace/cartographer_ws/install/pcl_ros:/workspace/cartographer_ws/install/cartographer_rviz:/workspace/cartographer_ws/install/cartographer_ros:/workspace/cartographer_ws/install/pcl_conversions:/workspace/cartographer_ws/install/pcl_msgs:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces:/workspace/cartographer_ws/install/isaac_ros_common:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces:/workspace/cartographer_ws/install/control_msgs:/workspace/cartographer_ws/install/cartographer_ros_msgs:/workspace/cartographer_ws/install/cartographer:/workspace/cartographer_ws/install/absl', 'COLCON_PREFIX_PATH': '/workspaces/isaac_ros-dev/install:/workspace/cartographer_ws/install', 'CUTENSOR_VERSION': '1.6.1.5', 'TRITON_SERVER_GPU_ENABLED': '1', 'HPCX_VERSION': '2.12.1a0', 'PYTHONPATH': '/workspaces/isaac_ros-dev/build/qcar2_autonomy/prefix_override:/workspaces/isaac_ros-dev/install/qcar2_autonomy/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/qcar2_autonomy:/workspaces/isaac_ros-dev/install/qcar2_autonomy/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/acc_2026_project:/workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages:/workspace/cartographer_ws/install/pcl_msgs/lib/python3.8/site-packages:/workspace/cartographer_ws/build/isaac_ros_test:/workspace/cartographer_ws/install/isaac_ros_test/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/control_msgs/lib/python3.8/site-packages:/workspace/cartographer_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/0_libraries/python', 'COLCON': '1', 'TERM': 'xterm', 'TRITON_SERVER_VERSION': '2.26.0', 'GDRCOPY_VERSION': '2.3', 'USER': 'mohammadsal', 'OPENMPI_VERSION': '4.1.4', 'NVJPEG_VERSION': '11.9.0.86', 'LIBRARY_PATH': '/usr/local/cuda/lib64/stubs:', 'DISPLAY': ':0', 'SHLVL': '1', 'BASH_ENV': '/etc/bash.bashrc', 'TF_AUTOTUNE_THRESHOLD': '2', 'CUDNN_VERSION': '8.6.0.163', 'NSIGHT_COMPUTE_VERSION': '2022.3.0.22', 'DALI_VERSION': '1.17.0', 'NVIDIA_TRITON_SERVER_VERSION': '22.09', 'LD_LIBRARY_PATH': '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib:/workspace/cartographer_ws/install/pcl_ros/lib:/workspace/cartographer_ws/install/cartographer_rviz/lib:/workspace/cartographer_ws/install/cartographer_ros/lib:/workspace/cartographer_ws/install/pcl_msgs/lib:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_common/lib:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces/lib:/workspace/cartographer_ws/install/control_msgs/lib:/workspace/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/tritonserver/backends/onnxruntime:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/opt/tritonserver/lib', 'NVIDIA_BUILD_ID': '44909143', 'ROS_LOCALHOST_ONLY': '0', 'OMPI_MCA_coll_hcoll_enable': '0', 'OPAL_PREFIX': '/opt/hpcx/ompi', 'CUDA_DRIVER_VERSION': '520.61.03', '_CUDA_COMPAT_PATH': '/usr/local/cuda/compat', 'PATH': '/workspace/cartographer_ws/install/cartographer/bin:/opt/ros/humble/bin:/opt/tritonserver/bin:/usr/local/mpi/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ucx/bin:/opt/nvidia/tao', 'TRITON_SERVER_USER': 'triton-server', 'PYTHONWARNINGS': 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources', 'MOFED_VERSION': '5.4-rdmacore36.0', 'TRTOSS_VERSION': '', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_ROOT': '/opt/ros/humble', 'ROS_DISTRO': 'humble', 'TF_ADJUST_HUE_FUSED': '1', 'TF_ADJUST_SATURATION_FUSED': '1', 'SHARP_COLL_ENABLE_CUDA': '0', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'OLDPWD': '/workspaces/isaac_ros-dev/ros2/src/acc_2026_project/acc_2026_project', '_': '/usr/bin/env'}, 'shell': False}
+[12.856781] (-) TimerEvent: {}
+[12.957534] (-) TimerEvent: {}
+[13.058154] (-) TimerEvent: {}
+[13.158931] (-) TimerEvent: {}
+[13.259522] (-) TimerEvent: {}
+[13.360165] (-) TimerEvent: {}
+[13.402565] (acc_2026_project) StdoutLine: {'line': b'running develop\n'}
+[13.436449] (qcar2_autonomy) StdoutLine: {'line': b'running develop\n'}
+[13.460287] (-) TimerEvent: {}
+[13.560777] (-) TimerEvent: {}
+[13.565649] (qcar2_nodes) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter \n'}
+[13.660929] (-) TimerEvent: {}
+[13.700911] (qcar2_nodes) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[13.761036] (-) TimerEvent: {}
+[13.771682] (acc_2026_project) StdoutLine: {'line': b'running egg_info\n'}
+[13.772131] (acc_2026_project) StdoutLine: {'line': b'creating acc_2026_project.egg-info\n'}
+[13.789374] (acc_2026_project) StdoutLine: {'line': b'writing acc_2026_project.egg-info/PKG-INFO\n'}
+[13.789904] (acc_2026_project) StdoutLine: {'line': b'writing dependency_links to acc_2026_project.egg-info/dependency_links.txt\n'}
+[13.790227] (acc_2026_project) StdoutLine: {'line': b'writing entry points to acc_2026_project.egg-info/entry_points.txt\n'}
+[13.790841] (acc_2026_project) StdoutLine: {'line': b'writing requirements to acc_2026_project.egg-info/requires.txt\n'}
+[13.791021] (acc_2026_project) StdoutLine: {'line': b'writing top-level names to acc_2026_project.egg-info/top_level.txt\n'}
+[13.791106] (acc_2026_project) StdoutLine: {'line': b"writing manifest file 'acc_2026_project.egg-info/SOURCES.txt'\n"}
+[13.803737] (qcar2_autonomy) StdoutLine: {'line': b'running egg_info\n'}
+[13.804047] (qcar2_autonomy) StdoutLine: {'line': b'creating qcar2_autonomy.egg-info\n'}
+[13.809388] (qcar2_nodes) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[13.823755] (qcar2_autonomy) StdoutLine: {'line': b'writing qcar2_autonomy.egg-info/PKG-INFO\n'}
+[13.824462] (qcar2_autonomy) StdoutLine: {'line': b'writing dependency_links to qcar2_autonomy.egg-info/dependency_links.txt\n'}
+[13.824896] (qcar2_autonomy) StdoutLine: {'line': b'writing entry points to qcar2_autonomy.egg-info/entry_points.txt\n'}
+[13.825302] (qcar2_autonomy) StdoutLine: {'line': b'writing requirements to qcar2_autonomy.egg-info/requires.txt\n'}
+[13.825515] (qcar2_autonomy) StdoutLine: {'line': b'writing top-level names to qcar2_autonomy.egg-info/top_level.txt\n'}
+[13.825616] (qcar2_autonomy) StdoutLine: {'line': b"writing manifest file 'qcar2_autonomy.egg-info/SOURCES.txt'\n"}
+[13.831480] (acc_2026_project) StdoutLine: {'line': b"reading manifest file 'acc_2026_project.egg-info/SOURCES.txt'\n"}
+[13.832587] (acc_2026_project) StdoutLine: {'line': b"writing manifest file 'acc_2026_project.egg-info/SOURCES.txt'\n"}
+[13.861156] (-) TimerEvent: {}
+[13.866207] (qcar2_autonomy) StdoutLine: {'line': b"reading manifest file 'qcar2_autonomy.egg-info/SOURCES.txt'\n"}
+[13.868249] (qcar2_autonomy) StdoutLine: {'line': b"writing manifest file 'qcar2_autonomy.egg-info/SOURCES.txt'\n"}
+[13.917989] (acc_2026_project) StdoutLine: {'line': b'running build_ext\n'}
+[13.918290] (acc_2026_project) StdoutLine: {'line': b'Creating /workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages/acc-2026-project.egg-link (link to .)\n'}
+[13.919489] (acc_2026_project) StdoutLine: {'line': b'Installing check_all_cameras script to /workspaces/isaac_ros-dev/install/acc_2026_project/lib/acc_2026_project\n'}
+[13.920094] (acc_2026_project) StdoutLine: {'line': b'Installing lane_follower script to /workspaces/isaac_ros-dev/install/acc_2026_project/lib/acc_2026_project\n'}
+[13.920609] (acc_2026_project) StdoutLine: {'line': b'Installing test_motor script to /workspaces/isaac_ros-dev/install/acc_2026_project/lib/acc_2026_project\n'}
+[13.920831] (acc_2026_project) StdoutLine: {'line': b'\n'}
+[13.920909] (acc_2026_project) StdoutLine: {'line': b'Installed /workspaces/isaac_ros-dev/build/acc_2026_project\n'}
+[13.921058] (acc_2026_project) StdoutLine: {'line': b'running install_data\n'}
+[13.921425] (acc_2026_project) StdoutLine: {'line': b'creating /workspaces/isaac_ros-dev/install/acc_2026_project/share/ament_index\n'}
+[13.921934] (acc_2026_project) StdoutLine: {'line': b'creating /workspaces/isaac_ros-dev/install/acc_2026_project/share/ament_index/resource_index\n'}
+[13.922227] (acc_2026_project) StdoutLine: {'line': b'creating /workspaces/isaac_ros-dev/install/acc_2026_project/share/ament_index/resource_index/packages\n'}
+[13.922338] (acc_2026_project) StdoutLine: {'line': b'copying resource/acc_2026_project -> /workspaces/isaac_ros-dev/install/acc_2026_project/share/ament_index/resource_index/packages\n'}
+[13.922410] (acc_2026_project) StdoutLine: {'line': b'copying package.xml -> /workspaces/isaac_ros-dev/install/acc_2026_project/share/acc_2026_project\n'}
+[13.948821] (qcar2_autonomy) StdoutLine: {'line': b'running build_ext\n'}
+[13.949154] (qcar2_autonomy) StdoutLine: {'line': b'Creating /workspaces/isaac_ros-dev/install/qcar2_autonomy/lib/python3.8/site-packages/qcar2-autonomy.egg-link (link to .)\n'}
+[13.950722] (qcar2_autonomy) StdoutLine: {'line': b'Installing lane_detector script to /workspaces/isaac_ros-dev/install/qcar2_autonomy/lib/qcar2_autonomy\n'}
+[13.951135] (qcar2_autonomy) StdoutLine: {'line': b'Installing path_follower script to /workspaces/isaac_ros-dev/install/qcar2_autonomy/lib/qcar2_autonomy\n'}
+[13.951623] (qcar2_autonomy) StdoutLine: {'line': b'Installing traffic_system_detector script to /workspaces/isaac_ros-dev/install/qcar2_autonomy/lib/qcar2_autonomy\n'}
+[13.951820] (qcar2_autonomy) StdoutLine: {'line': b'Installing trip_planner script to /workspaces/isaac_ros-dev/install/qcar2_autonomy/lib/qcar2_autonomy\n'}
+[13.951981] (qcar2_autonomy) StdoutLine: {'line': b'Installing yolo_detector script to /workspaces/isaac_ros-dev/install/qcar2_autonomy/lib/qcar2_autonomy\n'}
+[13.952242] (qcar2_autonomy) StdoutLine: {'line': b'\n'}
+[13.952366] (qcar2_autonomy) StdoutLine: {'line': b'Installed /workspaces/isaac_ros-dev/build/qcar2_autonomy\n'}
+[13.952485] (qcar2_autonomy) StdoutLine: {'line': b'running install_data\n'}
+[13.952693] (qcar2_autonomy) StdoutLine: {'line': b'creating /workspaces/isaac_ros-dev/install/qcar2_autonomy/share/ament_index\n'}
+[13.952885] (qcar2_autonomy) StdoutLine: {'line': b'creating /workspaces/isaac_ros-dev/install/qcar2_autonomy/share/ament_index/resource_index\n'}
+[13.953055] (qcar2_autonomy) StdoutLine: {'line': b'creating /workspaces/isaac_ros-dev/install/qcar2_autonomy/share/ament_index/resource_index/packages\n'}
+[13.953199] (qcar2_autonomy) StdoutLine: {'line': b'copying resource/qcar2_autonomy -> /workspaces/isaac_ros-dev/install/qcar2_autonomy/share/ament_index/resource_index/packages\n'}
+[13.953325] (qcar2_autonomy) StdoutLine: {'line': b'copying package.xml -> /workspaces/isaac_ros-dev/install/qcar2_autonomy/share/qcar2_autonomy\n'}
+[13.953449] (qcar2_autonomy) StdoutLine: {'line': b'creating /workspaces/isaac_ros-dev/install/qcar2_autonomy/share/qcar2_autonomy/launch\n'}
+[13.953607] (qcar2_autonomy) StdoutLine: {'line': b'copying launch/autonomy_planner_launch.py -> /workspaces/isaac_ros-dev/install/qcar2_autonomy/share/qcar2_autonomy/launch\n'}
+[13.956301] (qcar2_nodes) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[13.961401] (-) TimerEvent: {}
+[13.973839] (qcar2_nodes) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[13.997882] (qcar2_nodes) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[14.023146] (acc_2026_project) CommandEnded: {'returncode': 0}
+[14.032125] (qcar2_nodes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[14.061514] (-) TimerEvent: {}
+[14.076612] (qcar2_nodes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[14.102861] (acc_2026_project) JobEnded: {'identifier': 'acc_2026_project', 'rc': 0}
+[14.105823] (qcar2_autonomy) CommandEnded: {'returncode': 0}
+[14.161720] (-) TimerEvent: {}
+[14.185418] (qcar2_autonomy) JobEnded: {'identifier': 'qcar2_autonomy', 'rc': 0}
+[14.261866] (-) TimerEvent: {}
+[14.362365] (-) TimerEvent: {}
+[14.458028] (qcar2_nodes) StdoutLine: {'line': b'-- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[14.462574] (-) TimerEvent: {}
+[14.563054] (-) TimerEvent: {}
+[14.595173] (qcar2_nodes) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[14.602704] (qcar2_nodes) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[14.663147] (-) TimerEvent: {}
+[14.763509] (-) TimerEvent: {}
+[14.843373] (qcar2_nodes) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[14.863624] (-) TimerEvent: {}
+[14.900924] (qcar2_nodes) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[14.963757] (-) TimerEvent: {}
+[14.998585] (qcar2_nodes) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[15.024817] (qcar2_nodes) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[15.063887] (-) TimerEvent: {}
+[15.135599] (qcar2_nodes) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[15.136083] (qcar2_nodes) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[15.164034] (-) TimerEvent: {}
+[15.256590] (qcar2_nodes) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[15.256959] (qcar2_nodes) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[15.264151] (-) TimerEvent: {}
+[15.364558] (-) TimerEvent: {}
+[15.366154] (qcar2_nodes) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[15.366746] (qcar2_nodes) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[15.464721] (-) TimerEvent: {}
+[15.486441] (qcar2_nodes) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[15.489029] (qcar2_nodes) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[15.564853] (-) TimerEvent: {}
+[15.665264] (-) TimerEvent: {}
+[15.765689] (-) TimerEvent: {}
+[15.797416] (qcar2_nodes) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") found components: highgui imgcodecs imgproc videoio \n'}
+[15.802738] (qcar2_nodes) StdoutLine: {'line': b'-- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[15.808352] (qcar2_nodes) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[15.865810] (-) TimerEvent: {}
+[15.936942] (qcar2_nodes) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[15.965950] (-) TimerEvent: {}
+[16.034604] (qcar2_nodes) StdoutLine: {'line': b'-- Found control_msgs: 4.8.0 (/workspace/cartographer_ws/install/control_msgs/share/control_msgs/cmake)\n'}
+[16.066044] (-) TimerEvent: {}
+[16.166480] (-) TimerEvent: {}
+[16.266891] (-) TimerEvent: {}
+[16.367319] (-) TimerEvent: {}
+[16.468026] (-) TimerEvent: {}
+[16.476001] (qcar2_nodes) StdoutLine: {'line': b'-- Found qcar2_interfaces: 0.0.0 (/workspaces/isaac_ros-dev/install/qcar2_interfaces/share/qcar2_interfaces/cmake)\n'}
+[16.504922] (qcar2_nodes) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.4 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[16.568181] (-) TimerEvent: {}
+[16.669050] (-) TimerEvent: {}
+[16.769444] (-) TimerEvent: {}
+[16.869895] (-) TimerEvent: {}
+[16.970307] (-) TimerEvent: {}
+[17.001256] (qcar2_nodes) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[17.070450] (-) TimerEvent: {}
+[17.151393] (qcar2_nodes) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[17.152099] (qcar2_nodes) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[17.152529] (qcar2_nodes) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[17.153923] (qcar2_nodes) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[17.155428] (qcar2_nodes) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[17.156711] (qcar2_nodes) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[17.158897] (qcar2_nodes) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[17.159142] (qcar2_nodes) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[17.160173] (qcar2_nodes) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[17.163565] (qcar2_nodes) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.170568] (-) TimerEvent: {}
+[17.232471] (qcar2_nodes) StdoutLine: {'line': b'-- Generating done\n'}
+[17.236026] (qcar2_nodes) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/isaac_ros-dev/build/qcar2_nodes\n'}
+[17.253905] (qcar2_nodes) CommandEnded: {'returncode': 0}
+[17.259739] (qcar2_nodes) JobProgress: {'identifier': 'qcar2_nodes', 'progress': 'build'}
+[17.259844] (qcar2_nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/isaac_ros-dev/build/qcar2_nodes', '--', '-j16', '-l16'], 'cwd': '/workspaces/isaac_ros-dev/build/qcar2_nodes', 'env': OrderedDict([('NPP_VERSION', '11.8.0.86'), ('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('DALI_BUILD', '5838886'), ('CUSOLVER_VERSION', '11.4.1.48'), ('USER_UID', '1000'), ('CUBLAS_VERSION', '11.11.3.6'), ('PKG_CONFIG_PATH', '/workspace/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/workspace/cartographer_ws/install/cartographer/lib/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', 'mohammadsal-IdeaPad-Slim-3-14IRH8'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/rtps_udp_profile.xml'), ('DCGM_VERSION', '2.2.9'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=9.0'), ('CUFFT_VERSION', '10.9.0.58'), ('CUDA_CACHE_DISABLE', '1'), ('NCCL_VERSION', '2.15.1'), ('CUSPARSE_VERSION', '11.7.5.86'), ('ENV', '/etc/shinit_v2'), ('PWD', '/workspaces/isaac_ros-dev/build/qcar2_nodes'), ('OPENUCX_VERSION', '1.14.0'), ('NSIGHT_SYSTEMS_VERSION', '2022.3.1.43'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,video'), ('POLYGRAPHY_VERSION', '0.38.0'), ('TF_ENABLE_WINOGRAD_NONFUSED', '1'), ('TRT_VERSION', '8.5.0.12'), ('USER_GID', '1000'), ('NVIDIA_PRODUCT_NAME', 'Triton Server'), ('RDMACORE_VERSION', '36.0'), ('HOME', '/home/admin'), ('USERNAME', 'admin'), ('LANG', 'en_US.UTF-8'), ('CUDA_VERSION', '11.8.0.062'), ('CURAND_VERSION', '10.3.0.86'), ('AMENT_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspace/cartographer_ws/install/perception_pcl:/workspace/cartographer_ws/install/pcl_ros:/workspace/cartographer_ws/install/cartographer_rviz:/workspace/cartographer_ws/install/cartographer_ros:/workspace/cartographer_ws/install/pcl_conversions:/workspace/cartographer_ws/install/pcl_msgs:/workspace/cartographer_ws/install/isaac_ros_test:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces:/workspace/cartographer_ws/install/isaac_ros_common:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces:/workspace/cartographer_ws/install/control_msgs:/workspace/cartographer_ws/install/cartographer_ros_msgs:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/qcar2_interfaces:/workspaces/isaac_ros-dev/install/qcar2_nodes:/workspace/cartographer_ws/install/perception_pcl:/workspace/cartographer_ws/install/pcl_ros:/workspace/cartographer_ws/install/cartographer_rviz:/workspace/cartographer_ws/install/cartographer_ros:/workspace/cartographer_ws/install/pcl_conversions:/workspace/cartographer_ws/install/pcl_msgs:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces:/workspace/cartographer_ws/install/isaac_ros_common:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces:/workspace/cartographer_ws/install/control_msgs:/workspace/cartographer_ws/install/cartographer_ros_msgs:/workspace/cartographer_ws/install/cartographer:/workspace/cartographer_ws/install/absl:/workspaces/isaac_ros-dev/install/qcar2_autonomy:/workspaces/isaac_ros-dev/install/acc_2026_project:/workspace/cartographer_ws/install/isaac_ros_test:/opt/ros/humble'), ('COLCON_PREFIX_PATH', '/workspaces/isaac_ros-dev/install:/workspace/cartographer_ws/install'), ('CUTENSOR_VERSION', '1.6.1.5'), ('TRITON_SERVER_GPU_ENABLED', '1'), ('HPCX_VERSION', '2.12.1a0'), ('PYTHONPATH', '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/qcar2_autonomy:/workspaces/isaac_ros-dev/install/qcar2_autonomy/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/acc_2026_project:/workspaces/isaac_ros-dev/install/acc_2026_project/lib/python3.8/site-packages:/workspace/cartographer_ws/install/pcl_msgs/lib/python3.8/site-packages:/workspace/cartographer_ws/build/isaac_ros_test:/workspace/cartographer_ws/install/isaac_ros_test/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces/lib/python3.8/site-packages:/workspace/cartographer_ws/install/control_msgs/lib/python3.8/site-packages:/workspace/cartographer_ws/install/cartographer_ros_msgs/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages:/home/Quanser/0_libraries/python'), ('COLCON', '1'), ('TERM', 'xterm'), ('TRITON_SERVER_VERSION', '2.26.0'), ('GDRCOPY_VERSION', '2.3'), ('USER', 'mohammadsal'), ('OPENMPI_VERSION', '4.1.4'), ('NVJPEG_VERSION', '11.9.0.86'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs:'), ('DISPLAY', ':0'), ('SHLVL', '1'), ('BASH_ENV', '/etc/bash.bashrc'), ('TF_AUTOTUNE_THRESHOLD', '2'), ('CUDNN_VERSION', '8.6.0.163'), ('NSIGHT_COMPUTE_VERSION', '2022.3.0.22'), ('DALI_VERSION', '1.17.0'), ('NVIDIA_TRITON_SERVER_VERSION', '22.09'), ('LD_LIBRARY_PATH', '/workspaces/isaac_ros-dev/install/qcar2_interfaces/lib:/workspace/cartographer_ws/install/pcl_ros/lib:/workspace/cartographer_ws/install/cartographer_rviz/lib:/workspace/cartographer_ws/install/cartographer_ros/lib:/workspace/cartographer_ws/install/pcl_msgs/lib:/workspace/cartographer_ws/install/isaac_ros_tensor_list_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_pointcloud_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_nova_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_nitros_bridge_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_common/lib:/workspace/cartographer_ws/install/isaac_ros_bi3d_interfaces/lib:/workspace/cartographer_ws/install/isaac_ros_apriltag_interfaces/lib:/workspace/cartographer_ws/install/control_msgs/lib:/workspace/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/tritonserver/backends/onnxruntime:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/opt/tritonserver/lib'), ('NVIDIA_BUILD_ID', '44909143'), ('ROS_LOCALHOST_ONLY', '0'), ('OMPI_MCA_coll_hcoll_enable', '0'), ('OPAL_PREFIX', '/opt/hpcx/ompi'), ('CUDA_DRIVER_VERSION', '520.61.03'), ('_CUDA_COMPAT_PATH', '/usr/local/cuda/compat'), ('PATH', '/workspace/cartographer_ws/install/cartographer/bin:/opt/ros/humble/bin:/opt/tritonserver/bin:/usr/local/mpi/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ucx/bin:/opt/nvidia/tao'), ('TRITON_SERVER_USER', 'triton-server'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources'), ('MOFED_VERSION', '5.4-rdmacore36.0'), ('TRTOSS_VERSION', ''), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_ROOT', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('TF_ADJUST_HUE_FUSED', '1'), ('TF_ADJUST_SATURATION_FUSED', '1'), ('SHARP_COLL_ENABLE_CUDA', '0'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('OLDPWD', '/workspaces/isaac_ros-dev/ros2/src/acc_2026_project/acc_2026_project'), ('_', '/usr/bin/env')]), 'shell': False}
+[17.270796] (-) TimerEvent: {}
+[17.373082] (qcar2_nodes) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/qcar2_hardware.dir/src/qcar2_hardware.cpp.o\x1b[0m\n'}
+[17.373573] (-) TimerEvent: {}
+[17.377171] (qcar2_nodes) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/command.dir/src/command.cpp.o\x1b[0m\n'}
+[17.390191] (qcar2_nodes) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/csi.dir/src/csi.cpp.o\x1b[0m\n'}
+[17.390616] (qcar2_nodes) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar.cpp.o\x1b[0m\n'}
+[17.393977] (qcar2_nodes) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/fixed_lidar_frame.dir/src/fixed_lidar_frame.cpp.o\x1b[0m\n'}
+[17.394357] (qcar2_nodes) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/nav2_qcar2_converter.dir/src/nav2_qcar_command_convert.cpp.o\x1b[0m\n'}
+[17.394509] (qcar2_nodes) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/rgbd.dir/src/rgbd.cpp.o\x1b[0m\n'}
+[17.408440] (qcar2_nodes) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/fixed_lidar_frame_virtual.dir/src/fixed_lidar_frame_virtual.cpp.o\x1b[0m\n'}
+[17.473755] (-) TimerEvent: {}
+[17.574354] (-) TimerEvent: {}
+[17.674977] (-) TimerEvent: {}
+[17.775595] (-) TimerEvent: {}
+[17.876517] (-) TimerEvent: {}
+[17.977184] (-) TimerEvent: {}
+[18.078073] (-) TimerEvent: {}
+[18.179499] (-) TimerEvent: {}
+[18.281470] (-) TimerEvent: {}
+[18.383464] (-) TimerEvent: {}
+[18.484283] (-) TimerEvent: {}
+[18.585023] (-) TimerEvent: {}
+[18.689110] (-) TimerEvent: {}
+[18.789887] (-) TimerEvent: {}
+[18.890736] (-) TimerEvent: {}
+[18.991526] (-) TimerEvent: {}
+[19.092427] (-) TimerEvent: {}
+[19.193276] (-) TimerEvent: {}
+[19.294559] (-) TimerEvent: {}
+[19.395455] (-) TimerEvent: {}
+[19.497214] (-) TimerEvent: {}
+[19.598425] (-) TimerEvent: {}
+[19.699331] (-) TimerEvent: {}
+[19.801143] (-) TimerEvent: {}
+[19.903440] (-) TimerEvent: {}
+[20.005133] (-) TimerEvent: {}
+[20.105966] (-) TimerEvent: {}
+[20.206767] (-) TimerEvent: {}
+[20.307483] (-) TimerEvent: {}
+[20.409153] (-) TimerEvent: {}
+[20.511376] (-) TimerEvent: {}
+[20.616902] (-) TimerEvent: {}
+[20.719198] (-) TimerEvent: {}
+[20.819859] (-) TimerEvent: {}
+[20.920582] (-) TimerEvent: {}
+[21.021413] (-) TimerEvent: {}
+[21.122582] (-) TimerEvent: {}
+[21.223552] (-) TimerEvent: {}
+[21.324297] (-) TimerEvent: {}
+[21.425018] (-) TimerEvent: {}
+[21.525766] (-) TimerEvent: {}
+[21.626580] (-) TimerEvent: {}
+[21.727296] (-) TimerEvent: {}
+[21.827922] (-) TimerEvent: {}
+[21.928475] (-) TimerEvent: {}
+[22.029065] (-) TimerEvent: {}
+[22.135264] (-) TimerEvent: {}
+[22.235799] (-) TimerEvent: {}
+[22.336386] (-) TimerEvent: {}
+[22.439060] (-) TimerEvent: {}
+[22.539634] (-) TimerEvent: {}
+[22.640508] (-) TimerEvent: {}
+[22.741174] (-) TimerEvent: {}
+[22.841913] (-) TimerEvent: {}
+[22.942472] (-) TimerEvent: {}
+[23.043014] (-) TimerEvent: {}
+[23.143575] (-) TimerEvent: {}
+[23.244223] (-) TimerEvent: {}
+[23.344791] (-) TimerEvent: {}
+[23.445404] (-) TimerEvent: {}
+[23.546065] (-) TimerEvent: {}
+[23.646783] (-) TimerEvent: {}
+[23.747329] (-) TimerEvent: {}
+[23.847878] (-) TimerEvent: {}
+[23.948918] (-) TimerEvent: {}
+[24.049546] (-) TimerEvent: {}
+[24.150204] (-) TimerEvent: {}
+[24.253052] (-) TimerEvent: {}
+[24.356117] (-) TimerEvent: {}
+[24.459250] (-) TimerEvent: {}
+[24.566000] (-) TimerEvent: {}
+[24.666620] (-) TimerEvent: {}
+[24.768771] (-) TimerEvent: {}
+[24.872124] (-) TimerEvent: {}
+[24.973161] (-) TimerEvent: {}
+[25.073901] (-) TimerEvent: {}
+[25.175074] (-) TimerEvent: {}
+[25.280727] (-) TimerEvent: {}
+[25.439004] (-) TimerEvent: {}
+[25.627640] (-) TimerEvent: {}

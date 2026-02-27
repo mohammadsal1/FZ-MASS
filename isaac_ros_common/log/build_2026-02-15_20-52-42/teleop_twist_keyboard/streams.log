@@ -1,0 +1,41 @@
+[0.397s] Invoking command in '/workspaces/isaac_ros-dev/build/teleop_twist_keyboard': _=/usr/bin/env /usr/bin/cmake /workspaces/isaac_ros-dev/src/teleop_twist_keyboard -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/teleop_twist_keyboard
+[0.401s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.401s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.402s]   CMake.
+[0.402s] 
+[0.402s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.402s]   CMake that the project does not need compatibility with older versions.
+[0.402s] 
+[0.404s] [0m
+[0.461s] -- The C compiler identification is GNU 9.4.0
+[0.508s] -- The CXX compiler identification is GNU 9.4.0
+[0.515s] -- Detecting C compiler ABI info
+[0.587s] -- Detecting C compiler ABI info - done
+[0.594s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.595s] -- Detecting C compile features
+[0.595s] -- Detecting C compile features - done
+[0.599s] -- Detecting CXX compiler ABI info
+[0.677s] -- Detecting CXX compiler ABI info - done
+[0.685s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.686s] -- Detecting CXX compile features
+[0.686s] -- Detecting CXX compile features - done
+[0.706s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.706s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.706s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.706s]   CMake did not find one.
+[0.706s] 
+[0.706s]   Could not find a package configuration file provided by "catkin" with any
+[0.706s]   of the following names:
+[0.706s] 
+[0.706s]     catkinConfig.cmake
+[0.706s]     catkin-config.cmake
+[0.706s] 
+[0.707s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.707s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.707s]   provides a separate development package or SDK, be sure it has been
+[0.707s]   installed.
+[0.707s] 
+[0.707s] [0m
+[0.707s] -- Configuring incomplete, errors occurred!
+[0.707s] See also "/workspaces/isaac_ros-dev/build/teleop_twist_keyboard/CMakeFiles/CMakeOutput.log".
+[0.709s] Invoked command in '/workspaces/isaac_ros-dev/build/teleop_twist_keyboard' returned '1': _=/usr/bin/env /usr/bin/cmake /workspaces/isaac_ros-dev/src/teleop_twist_keyboard -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/teleop_twist_keyboard

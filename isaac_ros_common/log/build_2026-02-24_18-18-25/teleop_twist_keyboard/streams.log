@@ -1,0 +1,29 @@
+[0.630s] Invoking command in '/workspaces/isaac_ros-dev/build/teleop_twist_keyboard': _=/usr/bin/env /usr/bin/cmake /workspaces/isaac_ros-dev/src/teleop_twist_keyboard -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/teleop_twist_keyboard
+[0.633s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.634s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.634s]   CMake.
+[0.634s] 
+[0.634s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.634s]   CMake that the project does not need compatibility with older versions.
+[0.634s] 
+[0.634s] [0m
+[0.688s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.688s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.688s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.688s]   CMake did not find one.
+[0.688s] 
+[0.688s]   Could not find a package configuration file provided by "catkin" with any
+[0.689s]   of the following names:
+[0.689s] 
+[0.689s]     catkinConfig.cmake
+[0.689s]     catkin-config.cmake
+[0.690s] 
+[0.690s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.691s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.691s]   provides a separate development package or SDK, be sure it has been
+[0.691s]   installed.
+[0.691s] 
+[0.692s] [0m
+[0.692s] -- Configuring incomplete, errors occurred!
+[0.692s] See also "/workspaces/isaac_ros-dev/build/teleop_twist_keyboard/CMakeFiles/CMakeOutput.log".
+[0.693s] Invoked command in '/workspaces/isaac_ros-dev/build/teleop_twist_keyboard' returned '1': _=/usr/bin/env /usr/bin/cmake /workspaces/isaac_ros-dev/src/teleop_twist_keyboard -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/teleop_twist_keyboard

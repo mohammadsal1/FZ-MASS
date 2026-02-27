@@ -1,0 +1,129 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------MAB AND CAR RESPAUN--------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------GPU-------------------------------------------------------------------------------------------------
+cd ~/Documents/ACC_Development/docker/development_docker/
+sudo docker run --rm -it --network host --name virtual-qcar2 quanser/virtual-qcar2:latest 
+
+cd /home/qcar2_scripts/python/Base_Scenarios_Python
+python3 depthCameraCalibration_Scenario.py
+python3 Setup_Base_Scenario_pedestrian_ACC_Competition_2025.py
+python3 Setup_Base_Scenario_roundabout_ACC_Competition_2025.py
+python3 Setup_Base_Scenario_stop_ACC_Competition_2025.py
+python3 Setup_Base_Scenario_trafficCone_ACC_Competition_2025.py
+python3 Setup_Base_Scenario_trafficLight_ACC_Competition_2025.py
+python3 Setup_Base_Scenario_yield_ACC_Competition_2025.py
+python3 Setup_Competition_Map_Interleaved.py
+python3 Setup_Competition_Map.py
+python3 Setup_Real_Scenario_Interleaved.py
+python3 Setup_Real_Scenario.py
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------ROS 2 NODES-------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------GPU------------------------------------------------------------------------------------------------
+cd ~/Documents/ACC_Development/isaac_ros_common
+./scripts/run_dev.sh ~/Documents/ACC_Development/Development
+
+cd /workspaces/isaac_ros-dev
+source install/setup.bash
+export FASTRTPS_DEFAULT_PROFILES_FILE=/workspaces/isaac_ros-dev/disable_shm.xml
+ros2 launch qcar2_nodes qcar2_virtual_launch.py
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------THE CODE-----------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------GPU--------------------------------------------------------------------------------------------------
+cd ~/Documents/ACC_Development/isaac_ros_common
+./scripts/run_dev.sh ~/Documents/ACC_Development/Development
+
+cd /workspaces/isaac_ros-dev
+colcon build --packages-select qcar2_interfaces
+colcon build
+source /workspaces/isaac_ros-dev/install/setup.bash
+cd /workspaces/isaac_ros-dev/src/acc_2026_project/acc_2026_project
+python3 osman_dembiala.py
+
+
+
+
+
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------MAB AND CAR RESPAUN--------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------CPU-----------------------------------------------------------------------------------------------
+cd ~/Documents/ACC_Development/docker/development_docker/
+"""
+sudo docker run --rm -it \
+  --network host \
+  --name virtual-qcar2 \
+  -v ~/Documents/QCar2_Projects:/home/qcar2_scripts/python/saved_codes \
+  quanser/virtual-qcar2:latest
+"""
+cd /home/qcar2_scripts/python/Base_Scenarios_Python
+python3 depthCameraCalibration_Scenario.py
+python3 Setup_Base_Scenario_pedestrian_ACC_Competition_2025.py
+python3 Setup_Base_Scenario_roundabout_ACC_Competition_2025.py
+python3 Setup_Base_Scenario_stop_ACC_Competition_2025.py
+python3 Setup_Base_Scenario_trafficCone_ACC_Competition_2025.py
+python3 Setup_Base_Scenario_trafficLight_ACC_Competition_2025.py
+python3 Setup_Base_Scenario_yield_ACC_Competition_2025.py
+python3 Setup_Competition_Map_Interleaved.py
+python3 Setup_Competition_Map.py
+python3 Setup_Real_Scenario_Interleaved.py
+python3 Setup_Real_Scenario.py
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------ROS 2 NODES-------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------CPU-------------------------------------------------------------------------------------------------
+"""
+sudo docker run -it --rm \
+  --privileged \
+  --network host \
+  --user 1000:1000 \
+  -e DISPLAY=$DISPLAY \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
+  -v /home/mohammadsal/Documents/ACC_Development/isaac_ros_common:/workspaces/isaac_ros-dev \
+  isaac_ros_dev-x86_64 /bin/bash
+"""
+cd /workspaces/isaac_ros-dev
+source install/setup.bash
+export FASTRTPS_DEFAULT_PROFILES_FILE=/workspaces/isaac_ros-dev/disable_shm.xml
+ros2 launch qcar2_nodes qcar2_virtual_launch.py
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------THE CODE-----------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------CPU-------------------------------------------------------------------------------------------------
+"""
+sudo docker run -it --rm \
+  --privileged \
+  --network host \
+  --user 1000:1000 \
+  -e DISPLAY=$DISPLAY \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
+  -v /home/mohammadsal/Documents/ACC_Development/isaac_ros_common:/workspaces/isaac_ros-dev \
+  isaac_ros_dev-x86_64 /bin/bash
+"""
+cd /workspaces/isaac_ros-dev
+colcon build --packages-select qcar2_interfaces
+colcon build
+source /workspaces/isaac_ros-dev/install/setup.bash
+cd /workspaces/isaac_ros-dev/src/acc_2026_project/acc_2026_project
+python3 osman_dembiala.py
